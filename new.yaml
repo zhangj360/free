@@ -5,78 +5,40 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _油管：全网最强白嫖, server: gkdcm.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: gkdcm1.myjcbbcn.top, port: 25896, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: gkdcu.myjcbbcn.top, port: 25887, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: hk12.ningmengshui.xyz, port: 80, type: vmess, uuid: 28b777bd-a5fd-4ee4-98a0-0f414b7a51e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk12.ningmengshui.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: gkdcu.myjcbbcn.top, port: 25888, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcu.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: gkdcm.myjcbbcn.top, port: 25888, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: gkdcm.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 10, server: gkdcm.myjcbbcn.top, port: 25887, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 11, server: 116.129.254.65, port: 63086, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
-  - {name: _油管：全网最强白嫖 12, server: gkdcm.myjcbbcn.top, port: 25902, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 13, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: gkdcm1.myjcbbcn.top, port: 25895, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: gkdcm1.myjcbbcn.top, port: 25894, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 16, server: 113.201.107.78, port: 11312, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
-  - {name: _油管：全网最强白嫖 17, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 18, server: 113.201.107.78, port: 11313, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
-  - {name: _油管：全网最强白嫖 19, server: 113.201.107.78, port: 11314, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
-  - {name: _油管：全网最强白嫖 20, server: gkdcm1.myjcbbcn.top, port: 25902, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 113.201.107.78, port: 11311, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
-  - {name: _油管, server: g1.v2.gay, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国, server: v125.v2dns.bar, port: 80, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v1252N93nZez6Py, ws-headers: {Host: v125.v2dns.bar}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 10, server: 104.24.45.91, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
-  - {name: _油管：全网最强白嫖 23, server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 美国 2, server: v47.v2dns.bar, port: 2052, type: vmess, uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v47-unlimitndxd, ws-headers: {Host: v47.v2dns.bar}, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: 85.208.108.94, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管：全网最强白嫖 25, server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _油管：全网最强白嫖 26, server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国 3, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: _油管：全网最强白嫖 27, server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _油管：全网最强白嫖 28, server: 85.208.108.94, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _油管：全网最强白嫖 29, server: 85.208.108.94, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管：全网最强白嫖 30, server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _油管：全网最强白嫖 31, server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _油管：全网最强白嫖 32, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 33, server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管：全网最强白嫖 34, server: gkdcm.myjcbbcn.top, port: 25890, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 35, server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _油管：全网最强白嫖 36, server: 85.208.108.94, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管：全网最强白嫖 37, server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _油管：全网最强白嫖 38, server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _油管：全网最强白嫖 39, server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _油管：全网最强白嫖 40, server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _油管：全网最强白嫖 41, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 42, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 43, server: gkdcm.myjcbbcn.top, port: 25898, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 44, server: gkdcm1.myjcbbcn.top, port: 25892, type: vmess, uuid: bd22f04d-b5b7-4bc2-880d-2fcd1a496d94, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: gkdcm1.myjcbbcn.top}, udp: true}
-  - {name: _油管：全网最强白嫖 45, server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _油管：全网最强白嫖 46, server: 85.208.108.94, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _油管：全网最强白嫖 47, server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _油管：全网最强白嫖 48, server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _油管：全网最强白嫖 49, server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _油管：全网最强白嫖 50, server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _油管：全网最强白嫖 51, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 52, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 53, server: cdn-wa1.dnsnake.xyz, port: 10053, type: ss, cipher: chacha20-ietf-poly1305, password: d92f2f26-e3b7-48af-97c2-44fc03d30a1e, udp: true}
-  - {name: _油管：全网最强白嫖 54, server: api.qiscus.com, port: 443, type: vmess, uuid: 47e37af6-06b0-f5d8-0e1d-b601474c1351, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /726f5dd4/, ws-headers: {Host: sgazure-d.solusihost.my.id}, udp: true}
+  - {name: _油管：全网最强白嫖, server: 20.70.19.80, port: 443, type: vmess, uuid: 67fbbdac-99e8-405b-8883-26953a2c8fe3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: 20.70.19.80, grpc-opts: {grpc-service-name: b0a7426a}, udp: true}
+  - {name: github.com/freefq - 美国  12, server: 159.27.90.254, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 159.27.90.254}, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 159.27.90.254, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 159.27.90.254, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 159.27.90.254}, udp: true}
+  - {name: github.com/freefq - 美国  7, server: us01.henet.cyou, port: 20000, type: vmess, uuid: 83f5d4f1-49b2-4ace-a5ad-48df58f4da53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: us01.henet.cyou}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 116.129.254.65, port: 63004, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 116.129.254.65}, udp: true}
+  - {name: github.com/freefq - 香港  3, server: imgU140111366548.hk.huawei-cacahe.com, port: 20224, type: vmess, uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: imgU140111366548.hk.huawei-cacahe.com}, udp: true}
   - {name: github.com/freefq - 美国CloudFlare公司CDN节点 31, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: api.qiscus.com, port: 443, type: vmess, uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vmess-ws-makae, ws-headers: {Host: bn-id01.ipv2ray.xyz}, udp: true}
   - {name: github.com/freefq - 北京市新国信通信有限公司 32, server: 116.129.254.65, port: 63004, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-kr01.covid19.rip}, udp: true}
-  - {name: _油管：全网最强白嫖 55, server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 56, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: c2d62c65-5d48-3d17-8982-b4e85377c8c1, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 57, server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _油管：全网最强白嫖 58, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 欧洲  21, server: gb.v2yyds.com, port: 32911, type: trojan, password: 409906c5-740a-4068-84e1-45be10d2b067, sni: gb.v2yyds.com, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 59, server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 60, server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国弗吉尼亚州阿什本Oracle云计算数据中心 6, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 61, server: 113.201.107.77, port: 11404, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
-  - {name: _油管：全网最强白嫖 62, server: 113.201.107.77, port: 11403, type: ss, cipher: chacha20-ietf-poly1305, password: d6c01f5c-e3d0-45ff-b923-15bc358cf57a, udp: true}
+  - {name: github.com/freefq - 香港腾讯云 13, server: 43.129.30.122, port: 12359, type: vmess, uuid: f78921c4-5a97-47ed-db4c-e88b799e6581, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国弗吉尼亚州阿什本Oracle云计算数据中心+6, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: 112.64.98.133, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 112.64.98.133, port: 63087, type: vmess, uuid: 352ba93c-fd92-3055-ad10-b3599ff2802f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: "%7B%22Host%22:%22sg-balancer.tencent.best%22%7D"}, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: pp1.zhengzhongfeizhu.xyz, port: 33005, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5, server: us02.henet.cyou, port: 20000, type: vmess, uuid: a64899d8-6261-4e97-baf1-d304591a33c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: us02.henet.cyou}, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: api.qiscus.com, port: 443, type: vmess, uuid: 47e37af6-06b0-f5d8-0e1d-b601474c1351, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /726f5dd4/, ws-headers: {Host: sgazure-d.solusihost.my.id}, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: 81.90.190.81, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 12, server: 81.90.190.81, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 13, server: pp1.zhengzhongfeizhu.xyz, port: 33004, type: vmess, uuid: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 14, server: 81.90.190.81, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 15, server: cn2.soow.win, port: 50027, type: vmess, uuid: c1d0ae9e-f08a-3f81-962d-ca19b52c760d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video, ws-headers: {Host: cn2.soow.win}, udp: true}
+  - {name: _油管：全网最强白嫖 16, server: 81.90.190.81, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 17, server: 81.90.190.81, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 法国OVH数据中心 22, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: _油管：全网最强白嫖 18, server: pp1.zhengzhongfeizhu.xyz, port: 33003, type: vmess, uuid: eb2f8154-ff58-3b99-b393-28c8eecdbe64, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  26, server: usfree2.jiantian.xyz, port: 32462, type: trojan, password: cb5e2135-4d64-4454-be98-5bae4f2618d1, sni: usfree2.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18, server: usfree1.jiantian.xyz, port: 23425, type: trojan, password: 27e58714-2c0b-4fa4-afb6-b91ec041b1cf, sni: usfree1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  11, server: 625tw.ok365.cyou, port: 443, type: trojan, password: f5ff683a-c1f1-4b58-a80b-b83199d86d2b, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 15, server: data-hk-v1.heisey.cn, port: 50205, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: tv.cctv.com}, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 17, server: data-hk-v1.shwjfkw.cn, port: 50207, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: data-hk-v1.shwjfkw.cn}, udp: true}
+  - {name: _油管：全网最强白嫖 19, server: 120.233.7.221, port: 32003, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -84,14 +46,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -100,75 +71,37 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -177,61 +110,14 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -239,14 +125,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -255,61 +150,14 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -329,14 +177,23 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -345,65 +202,20 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 香港腾讯云 13
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -411,14 +223,23 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -427,75 +248,37 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -504,61 +287,14 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -566,14 +302,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -582,61 +327,14 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -653,14 +351,23 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - _油管：全网最强白嫖
+      - github.com/freefq - 美国  12
       - _油管：全网最强白嫖 2
       - _油管：全网最强白嫖 3
+      - github.com/freefq - 美国  7
       - _油管：全网最强白嫖 4
+      - github.com/freefq - 香港  3
+      - github.com/freefq - 美国CloudFlare公司CDN节点 31
+      - 美国
       - _油管：全网最强白嫖 5
+      - github.com/freefq - 北京市新国信通信有限公司 32
+      - github.com/freefq - 香港腾讯云 13
       - _油管：全网最强白嫖 6
+      - 美国弗吉尼亚州阿什本Oracle云计算数据中心+6
       - _油管：全网最强白嫖 7
       - _油管：全网最强白嫖 8
       - _油管：全网最强白嫖 9
+      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 5
       - _油管：全网最强白嫖 10
       - _油管：全网最强白嫖 11
       - _油管：全网最强白嫖 12
@@ -669,61 +376,14 @@ proxy-groups:
       - _油管：全网最强白嫖 15
       - _油管：全网最强白嫖 16
       - _油管：全网最强白嫖 17
+      - github.com/freefq - 法国OVH数据中心 22
       - _油管：全网最强白嫖 18
+      - github.com/freefq - 美国  26
+      - github.com/freefq+-+美国弗吉尼亚州阿什本Oracle云计算数据中心+18
+      - github.com/freefq - 加拿大  11
+      - github.com/freefq - 广东省佛山市移动 15
+      - github.com/freefq - 广东省佛山市移动 17
       - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管
-      - _油管：全网最强白嫖 22
-      - 美国
-      - github.com/freefq - 美国CloudFlare公司CDN节点 10
-      - _油管：全网最强白嫖 23
-      - 美国 2
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - 美国 3
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - github.com/freefq - 美国CloudFlare公司CDN节点 31
-      - github.com/freefq - 美国弗吉尼亚州阿什本Oracle云计算数据中心 18
-      - github.com/freefq - 北京市新国信通信有限公司 32
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 欧洲  21
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - 美国弗吉尼亚州阿什本Oracle云计算数据中心 6
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
