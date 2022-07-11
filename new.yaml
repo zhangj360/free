@@ -5,323 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4, server: 51.81.223.21, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_1229, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1661, server: 38.68.134.85, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1591, server: 38.68.134.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_262资源分享师4, server: 38.75.136.102, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1307, server: 38.68.134.85, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 日本资源分享师f, server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "[V2ray·1.1x]旧金山#CloudFlare#公益", server: sfo1.nuker.biz, port: 443, type: vmess, uuid: 09acf9f3-3b90-4dbe-9c47-16a58bc1bf62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sfo1.nuker.biz}, udp: true}
-  - {name: US_265资源分享师4, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "[V2ray·0.5x]莫斯科 GT直连#公益", server: 45.136.244.204, port: 44368, type: vmess, uuid: 09acf9f3-3b90-4dbe-9c47-16a58bc1bf62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: US_252资源分享师4, server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 资源分享师f 8, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxdeovz2.fovi.tk}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 45, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _190, server: 38.121.43.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_246资源分享师4, server: 38.75.136.102, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_261资源分享师4, server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _157, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_254资源分享师4, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1569, server: 38.121.43.71, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1372, server: 38.68.134.85, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_260资源分享师4, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: NL_141资源分享师4, server: 37.120.192.158, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: NL_144资源分享师4, server: 37.120.192.158, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: NL_146资源分享师4, server: 37.120.192.158, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_245资源分享师4, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: NL_145资源分享师4, server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_249资源分享师4, server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1758, server: 38.68.134.85, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_241资源分享师4, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 14, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_244资源分享师4, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: NL_703, server: 37.120.192.158, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 印尼资源分享师o 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: biznet-s.nextvpn.cc}, udp: true}
-  - {name: US_1818, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: 资源分享师949, server: 120.232.150.100, port: 443, type: vmess, uuid: e01962c1-a43c-484b-9b5d-9da1a7c0ec32, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: az.183tk.tk}, udp: true}
-  - {name: US_1351, server: 38.68.134.85, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_259资源分享师4, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: _188, server: 38.121.43.71, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: NL_150资源分享师4, server: 37.120.192.158, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1211, server: 38.68.134.85, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_240资源分享师4, server: 38.121.43.71, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1683, server: 38.68.134.85, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CN_440, server: j1.v2.gay, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: j1.v2.gay}, udp: true}
-  - {name: NL_139资源分享师4, server: 37.120.192.158, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1481, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1703, server: 38.75.136.102, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 美国资源分享师f 3, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}, udp: true}
-  - {name: 俄罗斯联邦资源分享师f, server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a11-dCeBnloadPy, ws-headers: {Host: v001.v2dns.bar}, udp: true}
   - {name: 美国资源分享师o, server: k9.v2.gay, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: US_253资源分享师4, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1848, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 中国广东资源分享师o, server: ingress-i1.onebox6.org, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: US_1117, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1354, server: 38.68.134.85, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 罗马尼亚  12, server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_247资源分享师4, server: 38.75.136.102, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "[V2ray·1x]莫斯科 CloudFlare", server: ru.nuker.biz, port: 443, type: vmess, uuid: 09acf9f3-3b90-4dbe-9c47-16a58bc1bf62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ru.nuker.biz}, udp: true}
-  - {name: US_1642, server: 38.68.134.85, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 俄罗斯联邦资源分享师f 3, server: v001.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /a11-dCeBnloadPy, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3, server: 51.81.223.25, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 加拿大  31, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: NL_137资源分享师4, server: 37.120.192.158, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: NL_142+|+2.80Mb, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6, server: 51.81.223.15, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 法国格拉沃利讷OVH数据中心 34, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "[v2ray·0.4x]Amazon_Tokyo", server: 35.79.166.8, port: 44573, type: vmess, uuid: 09acf9f3-3b90-4dbe-9c47-16a58bc1bf62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 中国阿里云 2, server: 626sg05.ok365.cyou, port: 80, type: trojan, password: 54f4dd9a-6a6c-4c84-b328-4a51da70793e, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 资源分享师f 7, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: true, udp: true}
-  - {name: 日本资源分享师f+4, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 日本资源分享师f+7, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 欧盟  37, server: v2.tgfaka.com, port: 48443, type: vmess, uuid: ec3e47e9-8dd7-4302-aa1a-a5658d34e931, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: douyincdn.com}, udp: true}
   - {name: 美国资源分享师g, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: usa23.884899.cf}, udp: true}
+  - {name: 美国资源分享师f 3, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}, udp: true}
+  - {name: CN_440, server: j1.v2.gay, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: j1.v2.gay}, udp: true}
+  - {name: NL_142+|+2.80Mb, server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq - 俄罗斯  20, server: hkbgp1.jiantian.xyz, port: 43567, type: trojan, password: 3fbb3fd9-e1a2-4c91-8380-dc2998d1fa8c, sni: hkbgp1.jiantian.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28, server: cd.rutracker-cn.com, port: 443, type: trojan, password: ukMzuFSmIXDvgW0h, sni: cd.rutracker-cn.com, skip-cert-verify: true, udp: true}
+  - {name: 日本资源分享师f+4, server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 印尼资源分享师o 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: biznet-s.nextvpn.cc}, udp: true}
+  - {name: 资源分享师f 7, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
+  - {name: 日本资源分享师f+7, server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3, server: su4.chaoxn.top, port: 80, type: vmess, uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: su4.chaoxn.top}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -340,81 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -425,242 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -676,81 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 4
-      - US_1229
-      - US_1661
-      - US_1591
-      - US_262资源分享师4
-      - US_1307
-      - 日本资源分享师f
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "[V2ray·1.1x]旧金山#CloudFlare#公益"
-      - US_265资源分享师4
-      - "[V2ray·0.5x]莫斯科 GT直连#公益"
-      - US_252资源分享师4
-      - 资源分享师f 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - _190
-      - US_246资源分享师4
-      - US_261资源分享师4
-      - _157
-      - US_254资源分享师4
-      - US_1569
-      - US_1372
-      - US_260资源分享师4
-      - NL_141资源分享师4
-      - NL_144资源分享师4
-      - NL_146资源分享师4
-      - US_245资源分享师4
-      - NL_145资源分享师4
-      - US_249资源分享师4
-      - US_1758
-      - US_241资源分享师4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - US_244资源分享师4
-      - NL_703
-      - 印尼资源分享师o 2
-      - US_1818
-      - 资源分享师949
-      - US_1351
-      - US_259资源分享师4
-      - _188
-      - NL_150资源分享师4
-      - US_1211
-      - US_240资源分享师4
-      - US_1683
-      - CN_440
-      - NL_139资源分享师4
-      - US_1481
-      - US_1703
-      - 美国资源分享师f 3
-      - 俄罗斯联邦资源分享师f
       - 美国资源分享师o
-      - US_253资源分享师4
-      - US_1848
-      - 中国广东资源分享师o
-      - US_1117
-      - US_1354
-      - github.com/freefq - 罗马尼亚  12
-      - US_247资源分享师4
-      - "[V2ray·1x]莫斯科 CloudFlare"
-      - US_1642
-      - 俄罗斯联邦资源分享师f 3
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 3
-      - github.com/freefq - 加拿大  31
-      - NL_137资源分享师4
-      - NL_142+|+2.80Mb
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 6
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 34
-      - "[v2ray·0.4x]Amazon_Tokyo"
-      - github.com/freefq - 中国阿里云 2
-      - 资源分享师f 7
-      - github.com/freefq - 美国加利福尼亚州洛杉矶Friendhosting有限责任公司 28
-      - 日本资源分享师f+4
-      - 日本资源分享师f+7
-      - github.com/freefq - 捷克布拉格Friendhosting有限责任公司 32
-      - github.com/freefq - 欧盟  37
       - 美国资源分享师g
+      - 美国资源分享师f 3
+      - CN_440
+      - NL_142+|+2.80Mb
+      - github.com/freefq - 俄罗斯  20
+      - github.com/freefq+-+美国加利福尼亚州洛杉矶Friendhosting有限责任公司+28
+      - 日本资源分享师f+4
+      - 印尼资源分享师o 2
+      - 资源分享师f 7
+      - 日本资源分享师f+7
+      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
