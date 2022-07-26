@@ -5,331 +5,147 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 美国CloudFlare节点 18, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}, udp: true}
-  - {name: github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _油管：全网最强白嫖, server: 20.239.191.236, port: 52224, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 120.233.150.146, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 185.160.26.189, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 185.160.26.160, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 120.233.150.146, port: 65082, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 111.45.22.136, port: 65082, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 111.45.22.136}, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 185.160.26.160, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: 52.131.218.162, port: 52282, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 9, server: 52.131.218.162, port: 52283, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 10, server: 5.181.5.10, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 11, server: 185.160.26.189, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 12, server: 5.181.5.10, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 新加坡  21, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 13, server: 139.217.229.103, port: 52281, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 14, server: 52.140.217.118, port: 52219, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 10, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 15, server: 20.24.77.110, port: 52286, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 16, server: 185.160.26.160, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 17, server: 185.160.26.160, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 18, server: 185.160.26.189, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 19, server: 120.233.150.146, port: 65068, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.150.146}, udp: true}
-  - {name: _油管：全网最强白嫖 20, server: 52.175.57.151, port: 52222, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 21, server: 20.222.35.52, port: 52277, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 22, server: 20.205.2.65, port: 52223, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 23, server: 104.208.83.241, port: 11222, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省移动 17, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
-  - {name: _油管：全网最强白嫖 24, server: 5.181.5.10, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 25, server: 185.160.26.189, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 26, server: 185.160.26.160, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 27, server: 185.160.26.189, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 28, server: 5.181.5.10, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 29, server: 5.181.5.10, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 30, server: 139.217.229.103, port: 52207, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 31, server: 5.181.5.10, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 32, server: 185.160.26.160, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 33, server: 52.175.57.151, port: 52214, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 34, server: 185.160.26.160, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 35, server: 185.160.26.160, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 36, server: 185.160.26.189, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 37, server: 20.24.11.9, port: 52285, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 38, server: 5.181.5.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 39, server: 185.160.26.160, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 40, server: 185.160.26.189, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 41, server: 5.181.5.10, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 42, server: 20.205.12.89, port: 52218, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 43, server: 20.205.2.65, port: 52212, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 44, server: 20.205.63.178, port: 52231, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 45, server: 20.205.2.65, port: 52335, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 46, server: 185.160.26.189, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 47, server: 20.205.5.134, port: 52278, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 48, server: 185.160.26.189, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 49, server: 5.181.5.10, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 50, server: 20.205.2.65, port: 52334, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 51, server: 185.160.26.189, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 52, server: 185.160.26.189, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 53, server: 20.239.87.54, port: 52217, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 54, server: 185.160.26.189, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 55, server: 23.97.67.212, port: 52216, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 56, server: 20.205.109.174, port: 52298, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 57, server: 20.24.99.2, port: 11220, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 58, server: 185.160.26.160, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 30, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, sni: trojan3.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 24, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: _油管：全网最强白嫖 59, server: 20.24.209.70, port: 52229, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 60, server: 185.160.26.160, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 61, server: 5.181.5.10, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 62, server: 52.131.218.162, port: 52203, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 63, server: 139.217.229.103, port: 52280, type: vmess, uuid: f8d24f06-1513-33fc-bf49-34ac231fd665, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 64, server: 185.160.26.160, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 18 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: exa.nextvpn.cc}, udp: true}
-  - {name: github.com/freefq - 新加坡  21 2, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京都品川区Linode数据中心 10 2, server: jp-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp-03.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省移动 17 2, server: cn04.downloadmovie.cn, port: 65025, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
-  - {name: github.com/freefq - 新加坡DigitalOcean数据中心 30 2, server: trojan3.udpgw.com, port: 443, type: trojan, password: 8db1b560-019d-11ed-8bdf-1239d0255272, sni: trojan3.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 24 2, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
+  - {name: 加拿大(youtube阿伟科技), server: 134.195.196.85, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq - 北美地区  22, server: 134.195.196.149, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 俄罗斯(youtube阿伟科技), server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
+  - {name: github.com/freefq - 加拿大  21, server: 625us.ok365.cyou, port: 443, type: trojan, password: 6a582cd4-559f-4874-98e7-76f3465412ae, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加州 6, server: 64.112.43.180, port: 13674, type: vmess, uuid: f44ce146-2d6d-4e84-dcac-3bdd8689d053, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  49, server: 172.99.188.71, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 澳大利亚  24, server: jp2.autlinzh.xyz, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: jp2.autlinzh.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 25, server: meet.ruangguru.com, port: 443, type: vmess, uuid: 36f20d01-79a1-4370-90a3-d3b536d5fe44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d407d4904/, ws-headers: {Host: gt.setopratama.com}, udp: true}
+  - {name: github.com/freefq - 北美地区  11, server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq+-+日本东京Linode数据中心+23, server: supernortheast.xn--mesv7f5toqlp.club, port: 12003, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 英国伦敦Digital VM 20, server: 5.183.102.34, port: 37667, type: vmess, uuid: 66f93c8f-4458-41d3-e447-f0b57d893527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+33, server: 38.143.66.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: github.com/freefq+-+塞舌尔++30, server: 196.247.59.154, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq+-+日本东京Linode数据中心+3, server: supernortheast.xn--mesv7f5toqlp.club, port: 12002, type: trojan, password: dd04c158-1bac-47cd-99c1-5c4f64796dd5, sni: supernortheast.xn--mesv7f5toqlp.club, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+美国纽约市DigitalOcean云公司+9, server: 138.197.166.205, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: github.com/freefq - 塞舌尔  13, server: 196.247.59.154, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 43, server: vfly6.xyz, port: 443, type: vmess, uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /myblog, ws-headers: {Host: vfly6.xyz}, udp: true}
+  - {name: 台湾(youtube阿伟科技), server: 111.45.29.75, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+塞舌尔++48, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq+-+塞舌尔++8, server: 196.247.59.154, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 加拿大  12, server: 72.140.224.195, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 美国  28, server: 172.99.188.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 上海市电信 18, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
+  - {name: github.com/freefq - 日本M247网络 3, server: 185.172.113.102, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 捷克  31, server: 176.119.156.229, port: 852, type: vmess, uuid: 35b021ff-cf42-4b32-aeb7-4f634363df40, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 奥地利  40, server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
+  - {name: github.com/freefq - 中国阿里云 46, server: 8.219.49.108, port: 35829, type: vmess, uuid: aaca3cd9-db04-4668-cbfe-53c43d33ab19, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本M247网络 1, server: 185.172.113.101, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 26, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 广东省移动 47, server: best03.downloadmovie.cn, port: 65096, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: best03.downloadmovie.cn}, udp: true}
+  - {name: github.com/freefq - 捷克  30, server: 176.119.156.229, port: 852, type: vmess, uuid: 82c73cff-ade4-41a5-a33c-c6f6a7f6f533, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: YouTube-aweikeji}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -348,335 +164,152 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 台湾(youtube阿伟科技)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -692,83 +325,37 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 美国CloudFlare节点 18
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+14
-      - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
-      - _油管：全网最强白嫖 3
-      - _油管：全网最强白嫖 4
-      - _油管：全网最强白嫖 5
-      - _油管：全网最强白嫖 6
-      - _油管：全网最强白嫖 7
-      - _油管：全网最强白嫖 8
-      - _油管：全网最强白嫖 9
-      - _油管：全网最强白嫖 10
-      - _油管：全网最强白嫖 11
-      - _油管：全网最强白嫖 12
-      - github.com/freefq - 新加坡  21
-      - _油管：全网最强白嫖 13
-      - _油管：全网最强白嫖 14
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10
-      - _油管：全网最强白嫖 15
-      - _油管：全网最强白嫖 16
-      - _油管：全网最强白嫖 17
-      - _油管：全网最强白嫖 18
-      - _油管：全网最强白嫖 19
-      - _油管：全网最强白嫖 20
-      - _油管：全网最强白嫖 21
-      - _油管：全网最强白嫖 22
-      - _油管：全网最强白嫖 23
-      - github.com/freefq - 广东省移动 17
-      - _油管：全网最强白嫖 24
-      - _油管：全网最强白嫖 25
-      - _油管：全网最强白嫖 26
-      - _油管：全网最强白嫖 27
-      - _油管：全网最强白嫖 28
-      - _油管：全网最强白嫖 29
-      - _油管：全网最强白嫖 30
-      - _油管：全网最强白嫖 31
-      - _油管：全网最强白嫖 32
-      - _油管：全网最强白嫖 33
-      - _油管：全网最强白嫖 34
-      - _油管：全网最强白嫖 35
-      - _油管：全网最强白嫖 36
-      - _油管：全网最强白嫖 37
-      - _油管：全网最强白嫖 38
-      - _油管：全网最强白嫖 39
-      - _油管：全网最强白嫖 40
-      - _油管：全网最强白嫖 41
-      - _油管：全网最强白嫖 42
-      - _油管：全网最强白嫖 43
-      - _油管：全网最强白嫖 44
-      - _油管：全网最强白嫖 45
-      - _油管：全网最强白嫖 46
-      - _油管：全网最强白嫖 47
-      - _油管：全网最强白嫖 48
-      - _油管：全网最强白嫖 49
-      - _油管：全网最强白嫖 50
-      - _油管：全网最强白嫖 51
-      - _油管：全网最强白嫖 52
-      - _油管：全网最强白嫖 53
-      - _油管：全网最强白嫖 54
-      - _油管：全网最强白嫖 55
-      - _油管：全网最强白嫖 56
-      - _油管：全网最强白嫖 57
-      - _油管：全网最强白嫖 58
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24
-      - _油管：全网最强白嫖 59
-      - _油管：全网最强白嫖 60
-      - _油管：全网最强白嫖 61
-      - _油管：全网最强白嫖 62
-      - _油管：全网最强白嫖 63
-      - _油管：全网最强白嫖 64
-      - github.com/freefq - 美国CloudFlare节点 18 2
-      - github.com/freefq - 新加坡  21 2
-      - github.com/freefq - 日本东京都品川区Linode数据中心 10 2
-      - github.com/freefq - 广东省移动 17 2
-      - github.com/freefq - 新加坡DigitalOcean数据中心 30 2
-      - github.com/freefq - 美国CloudFlare公司CDN节点 24 2
+      - 加拿大(youtube阿伟科技)
+      - github.com/freefq - 北美地区  22
+      - 俄罗斯(youtube阿伟科技)
+      - github.com/freefq - 加拿大  21
+      - github.com/freefq - 美国加州 6
+      - github.com/freefq - 美国  49
+      - github.com/freefq - 澳大利亚  24
+      - github.com/freefq - 美国CloudFlare公司CDN节点 25
+      - github.com/freefq - 北美地区  11
+      - github.com/freefq+-+日本东京Linode数据中心+23
+      - github.com/freefq - 英国伦敦Digital VM 20
+      - github.com/freefq+-+美国华盛顿Cogent通信公司+33
+      - github.com/freefq+-+塞舌尔++30
+      - github.com/freefq+-+日本东京Linode数据中心+3
+      - github.com/freefq+-+美国纽约市DigitalOcean云公司+9
+      - github.com/freefq - 塞舌尔  13
+      - github.com/freefq - 美国CloudFlare节点 43
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq+-+塞舌尔++48
+      - github.com/freefq+-+塞舌尔++8
+      - github.com/freefq - 加拿大  12
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 日本M247网络 3
+      - github.com/freefq - 捷克  31
+      - github.com/freefq - 奥地利  40
+      - github.com/freefq - 中国阿里云 46
+      - github.com/freefq - 日本M247网络 1
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 26
+      - github.com/freefq - 广东省移动 47
+      - github.com/freefq - 捷克  30
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
