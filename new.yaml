@@ -5,283 +5,179 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@资源分享师_🇯🇵_JP_1295", server: 85.208.108.94, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1296", server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 19, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 广东省移动 51, server: ftp.cn.debian.cdnet.in, port: 8030, type: ss, cipher: aes-128-gcm, password: 83cfcf0a-2b51-4080-b38e-e70a7da33f08, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 6, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1293", server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1299", server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 45, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 14, server: 38.114.114.69, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 10, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 23, server: 38.143.66.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 58, server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1302", server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: 俄罗斯(youtube阿伟科技), server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 36, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1303", server: 85.208.108.94, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1314", server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 北美地区  54, server: 134.195.198.95, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1315", server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: aaa 174, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1291", server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 5, server: 20.187.104.109, port: 40940, type: vmess, uuid: 0b97668f-1a7f-4d1e-c26d-70d46c6e5ded, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 新加坡Amazon数据中心 50, server: 3.0.21.170, port: 8080, type: vmess, uuid: fc405358-95ab-43bc-8476-3b1a6bc60bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 欧洲  12, server: 147.78.243.33, port: 11188, type: vmess, uuid: 98a3a2f6-01ff-48d9-9b24-28de4e4d8cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 日本东京Choopa数据中心 23, server: 66.42.37.253, port: 23259, type: vmess, uuid: db36be71-e0bf-48fd-ebe4-07ebe157027b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 广东省移动 59, server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
+  - {name: github.com/freefq - 美国Nokia 18, server: 192.9.229.94, port: 59490, type: vmess, uuid: d60ac7eb-aa09-4a25-ac2f-3937ae8ffe3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19, server: 174.137.48.51, port: 31237, type: vmess, uuid: 645c6186-3a02-4fae-ba98-d8e1c69ef548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16, server: 23.105.199.160, port: 23903, type: vmess, uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17, server: 174.137.48.51, port: 44231, type: vmess, uuid: a9140099-1251-4050-f23c-e017b4963fe9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 57, server: 104.17.21.154, port: 443, type: vmess, uuid: b503ef1f-aa59-4b96-8c24-8c995cba0e75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: m3.v2rayfree1.xyz}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20, server: 23.83.236.184, port: 49539, type: vmess, uuid: 90b803e1-aab3-40c4-ff81-0cc8c430c782, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本东京Amazon数据中心 14, server: 13.113.250.217, port: 34560, type: vmess, uuid: 0ef31df7-1f71-40db-cb75-69c240f3d8ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24, server: 23.83.236.184, port: 46855, type: vmess, uuid: 2f98c774-925e-40ce-8e2d-d52c14539524, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  21, server: 45.155.43.244, port: 44360, type: vmess, uuid: 6b8f422d-22dd-4665-958c-c59dfa6f586a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国DXC Technology 29, server: 20.106.74.17, port: 23690, type: vmess, uuid: 4928085d-637e-4b9e-e26d-e14627a45c46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /789k, ws-headers: {Host: YouTube-aweikeji}, udp: true}
   - {name: 美国(youtube阿伟科技), server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1313", server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1286", server: 85.208.108.94, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1308", server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1311", server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 加拿大  22, server: 38.64.138.145, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1297", server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1284", server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1292", server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 澳大利亚  7, server: 140.83.57.80, port: 49840, type: vmess, uuid: 2969ad1b-9787-4927-94e6-22f597618de0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1301", server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 38, server: 38.121.43.71, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1309", server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 17, server: 38.121.43.71, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1312", server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 北美地区  25, server: 134.195.198.95, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1289", server: 85.208.108.94, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 27, server: 38.121.43.71, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1298", server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 15, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1294", server: 85.208.108.94, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 70, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: github.com/freefq - 法国  66, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1290", server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1283", server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11, server: 51.81.223.36, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 18, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 广东省移动 43, server: ftp.cn.debian.cdnet.in, port: 8050, type: ss, cipher: aes-128-gcm, password: 83cfcf0a-2b51-4080-b38e-e70a7da33f08, udp: true}
-  - {name: github.com/freefq - 日本  3, server: 43.134.229.238, port: 20085, type: vmess, uuid: eb35ce5a-7b4d-4fbc-d23f-a57c74872634, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 39, server: 38.86.135.27, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 广东省移动 33, server: ftp.cn.debian.cdnet.in, port: 8060, type: ss, cipher: aes-128-gcm, password: 83cfcf0a-2b51-4080-b38e-e70a7da33f08, udp: true}
+  - {name: github.com/freefq - 美国  48, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30, server: 192.3.124.36, port: 29774, type: vmess, uuid: c7f8e9ff-82a6-49af-c772-ccf5b9092825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31, server: 192.3.124.36, port: 29585, type: vmess, uuid: d7f58c5e-e9cc-487f-c721-52cb79b96ac7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41, server: 63.209.33.52, port: 44204, type: vmess, uuid: 7673d8bd-cd3d-4893-d6f1-a72d4dbc3ca8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /234, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 美国Xerox 11, server: 13.215.173.29, port: 80, type: vmess, uuid: afa18cca-fa20-4506-c778-41e1dad3c315, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 58, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
+  - {name: github.com/freefq - 北京市移动 28, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: github.com/freefq - 美国  40, server: ocrb1.moonfree.top, port: 443, type: vmess, uuid: c599e33c-e881-4cb5-87a7-a6e3711879e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb1.moonfree.top}, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 8, server: jm.yd02.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
+  - {name: github.com/freefq - 香港Microsoft数据中心 10, server: 20.187.71.126, port: 46320, type: vmess, uuid: 9493bc06-98f5-4235-c22b-00d5018f3ca0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: github.com/freefq - 美国  36, server: 152.69.222.253, port: 11188, type: vmess, uuid: 19f2bc05-4012-4528-ba51-9a59f55ec123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: YouTube-aweikeji}, udp: true}
   - {name: 香港(youtube阿伟科技), server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 35, server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8, server: 51.81.223.22, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 26, server: 38.86.135.27, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 4, server: xmrh013.xmrth-node.xyz, port: 15885, type: vmess, uuid: ab3f9ddc-7c35-3793-98f0-1c37eb9741e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: 87318706-ws.va.huya.com}, udp: true}
-  - {name: github.com/freefq - 法国格拉沃利讷OVH数据中心 30, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "@资源分享师_🇯🇵_JP_1300", server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 13, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 上海市电信 18, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
+  - {name: github.com/freefq - 美国  27, server: 152.69.209.58, port: 35113, type: vmess, uuid: caafe513-13a1-4357-adcc-f81ad07e54f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  38, server: 138.2.80.216, port: 23315, type: vmess, uuid: bd6953cc-a2a6-421e-8881-d3ce9dee0a38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 62, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
+  - {name: github.com/freefq - 美国  55, server: singapore.alures.xyz, port: 3389, type: vmess, uuid: a3129f57-2ee1-4937-aff0-112ebd658067, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: singapore.alures.xyz}, udp: true}
+  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32, server: 54.173.95.207, port: 30716, type: vmess, uuid: ad56f761-61fd-4e86-80fd-7705af94007d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.173.95.207}, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 6, server: fsyd.kruwik.cn, port: 10641, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fsyd.kruwik.cn}, udp: true}
+  - {name: github.com/freefq - 广东省移动 61, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
+  - {name: github.com/freefq - 美国  45, server: jgwflkf.jddsb.cf, port: 443, type: vmess, uuid: e4f9fb28-6817-46df-97d3-3bc22d7f3524, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jgwflkf.jddsb.cf}, udp: true}
+  - {name: github.com/freefq - 上海市电信 53, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-jp-1.iivvppnn.info}, udp: true}
+  - {name: github.com/freefq - 上海市电信 52, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -300,289 +196,188 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 香港Microsoft数据中心 10
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -598,71 +393,45 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@资源分享师_🇯🇵_JP_1295"
-      - "@资源分享师_🇯🇵_JP_1296"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 19
-      - github.com/freefq - 广东省移动 51
-      - github.com/freefq - 美国华盛顿Cogent通信公司 6
-      - "@资源分享师_🇯🇵_JP_1293"
-      - "@资源分享师_🇯🇵_JP_1299"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 美国华盛顿Cogent通信公司 14
-      - github.com/freefq - 美国华盛顿Cogent通信公司 10
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+26
-      - github.com/freefq - 美国华盛顿Cogent通信公司 23
-      - github.com/freefq - 法国ONLINE S.A.S.数据中心 58
-      - "@资源分享师_🇯🇵_JP_1302"
-      - 俄罗斯(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 36
-      - "@资源分享师_🇯🇵_JP_1303"
-      - "@资源分享师_🇯🇵_JP_1314"
-      - github.com/freefq - 北美地区  54
-      - "@资源分享师_🇯🇵_JP_1315"
-      - aaa 174
-      - "@资源分享师_🇯🇵_JP_1291"
+      - github.com/freefq - 香港Microsoft数据中心 5
+      - github.com/freefq - 新加坡Amazon数据中心 50
+      - github.com/freefq - 欧洲  12
+      - github.com/freefq - 日本东京Choopa数据中心 23
+      - github.com/freefq - 广东省移动 59
+      - github.com/freefq - 美国Nokia 18
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
+      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
+      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
+      - github.com/freefq - 美国CloudFlare公司CDN节点 57
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
+      - github.com/freefq - 日本东京Amazon数据中心 14
+      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
+      - github.com/freefq - 美国  21
+      - github.com/freefq - 美国DXC Technology 29
       - 美国(youtube阿伟科技)
-      - "@资源分享师_🇯🇵_JP_1313"
-      - "@资源分享师_🇯🇵_JP_1286"
-      - "@资源分享师_🇯🇵_JP_1308"
-      - "@资源分享师_🇯🇵_JP_1311"
-      - github.com/freefq - 加拿大  22
-      - "@资源分享师_🇯🇵_JP_1297"
-      - "@资源分享师_🇯🇵_JP_1284"
-      - "@资源分享师_🇯🇵_JP_1292"
-      - github.com/freefq - 澳大利亚  7
-      - "@资源分享师_🇯🇵_JP_1301"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 38
-      - "@资源分享师_🇯🇵_JP_1309"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - "@资源分享师_🇯🇵_JP_1312"
-      - github.com/freefq - 北美地区  25
-      - "@资源分享师_🇯🇵_JP_1289"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 27
-      - "@资源分享师_🇯🇵_JP_1298"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 15
-      - "@资源分享师_🇯🇵_JP_1294"
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 12
-      - github.com/freefq - 美国CloudFlare公司CDN节点 70
-      - github.com/freefq - 法国  66
-      - "@资源分享师_🇯🇵_JP_1290"
-      - "@资源分享师_🇯🇵_JP_1283"
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 11
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - github.com/freefq - 广东省移动 43
-      - github.com/freefq - 日本  3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 39
-      - github.com/freefq - 广东省移动 33
+      - github.com/freefq - 美国  48
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
+      - github.com/freefq - 美国Xerox 11
+      - github.com/freefq - 美国CloudFlare节点 58
+      - github.com/freefq - 北京市移动 28
+      - github.com/freefq - 美国  40
+      - github.com/freefq - 美国Microsoft数据中心 8
+      - github.com/freefq - 香港Microsoft数据中心 10
+      - github.com/freefq - 广东省佛山市移动 56
+      - github.com/freefq - 美国  36
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国华盛顿Cogent通信公司 35
-      - github.com/freefq - 美国弗吉尼亚州文特山农场OVH数据中心 8
-      - github.com/freefq - 美国华盛顿Cogent通信公司 26
-      - 新加坡(youtube阿伟科技)
-      - github.com/freefq - 香港Microsoft数据中心 4
-      - github.com/freefq - 法国格拉沃利讷OVH数据中心 30
-      - "@资源分享师_🇯🇵_JP_1300"
-      - github.com/freefq - 美国华盛顿Cogent通信公司 13
-      - github.com/freefq - 上海市电信 18
+      - github.com/freefq - 美国  27
+      - github.com/freefq - 美国  38
+      - github.com/freefq - 美国CloudFlare公司CDN节点 62
+      - github.com/freefq - 美国  55
+      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
+      - github.com/freefq - 广东省佛山市移动 6
+      - github.com/freefq - 广东省移动 61
+      - github.com/freefq - 美国  45
+      - github.com/freefq - 上海市电信 53
+      - github.com/freefq - 上海市电信 52
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
