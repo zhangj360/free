@@ -5,179 +5,371 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 香港Microsoft数据中心 5, server: 20.187.104.109, port: 40940, type: vmess, uuid: 0b97668f-1a7f-4d1e-c26d-70d46c6e5ded, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 新加坡Amazon数据中心 50, server: 3.0.21.170, port: 8080, type: vmess, uuid: fc405358-95ab-43bc-8476-3b1a6bc60bb3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 欧洲  12, server: 147.78.243.33, port: 11188, type: vmess, uuid: 98a3a2f6-01ff-48d9-9b24-28de4e4d8cc5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 日本东京Choopa数据中心 23, server: 66.42.37.253, port: 23259, type: vmess, uuid: db36be71-e0bf-48fd-ebe4-07ebe157027b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: iplcsg1.bitznet.cloud, port: 34006, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcsg1.bitznet.cloud, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省移动 59, server: cn04.downloadmovie.cn, port: 65036, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: "%7B%22Host%22:%22cn04.downloadmovie.cn%22%7D"}, udp: true}
-  - {name: github.com/freefq - 美国Nokia 18, server: 192.9.229.94, port: 59490, type: vmess, uuid: d60ac7eb-aa09-4a25-ac2f-3937ae8ffe3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19, server: 174.137.48.51, port: 31237, type: vmess, uuid: 645c6186-3a02-4fae-ba98-d8e1c69ef548, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16, server: 23.105.199.160, port: 23903, type: vmess, uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17, server: 174.137.48.51, port: 44231, type: vmess, uuid: a9140099-1251-4050-f23c-e017b4963fe9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 57, server: 104.17.21.154, port: 443, type: vmess, uuid: b503ef1f-aa59-4b96-8c24-8c995cba0e75, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: m3.v2rayfree1.xyz}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20, server: 23.83.236.184, port: 49539, type: vmess, uuid: 90b803e1-aab3-40c4-ff81-0cc8c430c782, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 日本东京Amazon数据中心 14, server: 13.113.250.217, port: 34560, type: vmess, uuid: 0ef31df7-1f71-40db-cb75-69c240f3d8ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24, server: 23.83.236.184, port: 46855, type: vmess, uuid: 2f98c774-925e-40ce-8e2d-d52c14539524, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  21, server: 45.155.43.244, port: 44360, type: vmess, uuid: 6b8f422d-22dd-4665-958c-c59dfa6f586a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国DXC Technology 29, server: 20.106.74.17, port: 23690, type: vmess, uuid: 4928085d-637e-4b9e-e26d-e14627a45c46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /789k, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 美国(youtube阿伟科技), server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: github.com/freefq - 美国  48, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30, server: 192.3.124.36, port: 29774, type: vmess, uuid: c7f8e9ff-82a6-49af-c772-ccf5b9092825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31, server: 192.3.124.36, port: 29585, type: vmess, uuid: d7f58c5e-e9cc-487f-c721-52cb79b96ac7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41, server: 63.209.33.52, port: 44204, type: vmess, uuid: 7673d8bd-cd3d-4893-d6f1-a72d4dbc3ca8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /234, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 美国Xerox 11, server: 13.215.173.29, port: 80, type: vmess, uuid: afa18cca-fa20-4506-c778-41e1dad3c315, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 58, server: v116.v2dns.bar, port: 80, type: vmess, uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v116-DtoEwAEX, ws-headers: {Host: v116.v2dns.bar}, udp: true}
-  - {name: github.com/freefq - 北京市移动 28, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: github.com/freefq - 美国  40, server: ocrb1.moonfree.top, port: 443, type: vmess, uuid: c599e33c-e881-4cb5-87a7-a6e3711879e2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ocrb1.moonfree.top}, udp: true}
-  - {name: github.com/freefq - 美国Microsoft数据中心 8, server: jm.yd02.paopaocloud.cyou, port: 10002, type: vmess, uuid: ef3e72ca-83d1-3927-bee9-1601a061008a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: paopao.v2.hk04.paopaocloud.cyou}, udp: true}
-  - {name: github.com/freefq - 香港Microsoft数据中心 10, server: 20.187.71.126, port: 46320, type: vmess, uuid: 9493bc06-98f5-4235-c22b-00d5018f3ca0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 广东省佛山市移动 56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: github.com/freefq - 美国  36, server: 152.69.222.253, port: 11188, type: vmess, uuid: 19f2bc05-4012-4528-ba51-9a59f55ec123, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 香港(youtube阿伟科技), server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  27, server: 152.69.209.58, port: 35113, type: vmess, uuid: caafe513-13a1-4357-adcc-f81ad07e54f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  38, server: 138.2.80.216, port: 23315, type: vmess, uuid: bd6953cc-a2a6-421e-8881-d3ce9dee0a38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 62, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: github.com/freefq - 美国  55, server: singapore.alures.xyz, port: 3389, type: vmess, uuid: a3129f57-2ee1-4937-aff0-112ebd658067, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: singapore.alures.xyz}, udp: true}
-  - {name: github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32, server: 54.173.95.207, port: 30716, type: vmess, uuid: ad56f761-61fd-4e86-80fd-7705af94007d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.173.95.207}, udp: true}
-  - {name: github.com/freefq - 广东省佛山市移动 6, server: fsyd.kruwik.cn, port: 10641, type: vmess, uuid: 3faa79fc-c39b-338e-9c95-ca0b1c6f9e8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: fsyd.kruwik.cn}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: trasg1.bitznet.cloud, port: 32007, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trasg1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 韩国(youtube阿伟科技), server: 20.214.166.79, port: 53091, type: vmess, uuid: 0acf4368-953c-4897-ad54-3b63cf7a1d5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hjghjgjk, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 日本(youtube阿伟科技), server: trajp1.bitznet.cloud, port: 32004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: trajp1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技) 2, server: iplcjp1.bitznet.cloud, port: 34004, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcjp1.bitznet.cloud, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省移动 61, server: 120.233.29.189, port: 65039, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: 120.233.29.189}, udp: true}
-  - {name: github.com/freefq - 美国  45, server: jgwflkf.jddsb.cf, port: 443, type: vmess, uuid: e4f9fb28-6817-46df-97d3-3bc22d7f3524, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cctv13/hd.m3u8, ws-headers: {Host: jgwflkf.jddsb.cf}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 2, server: 152.67.207.69, port: 80, type: vmess, uuid: 8c1ec9ed-ee22-4021-b6a9-80d8e20778e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度(youtube阿伟科技), server: 13.71.83.59, port: 44444, type: vmess, uuid: ccae6977-78ed-4a2c-8d93-d77529b6ef2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ddde, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 3, server: 3.39.134.58, port: 443, type: vmess, uuid: d3b69a94-0282-45bc-88fd-f87df4c453b0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /skdW1Jl, ws-headers: {Host: ltf.kxking.top}, udp: true}
+  - {name: 澳大利亚(youtube阿伟科技), server: traau1.bitznet.cloud, port: 32012, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traau1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技)_33, server: 216.24.243.233, port: 54028, type: vmess, uuid: dd986c5b-50c4-4b3b-b3de-6e941f1ec14a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
+  - {name: 印度(youtube阿伟科技) 2, server: freewaytunnel.dev, port: 12100, type: vmess, uuid: 312a6cb8-68d3-3b2f-a7d3-cd0ba632a6e7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /in, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 越南(youtube阿伟科技), server: 116.129.254.177, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 澳大利亚(youtube阿伟科技) 2, server: 13.77.58.181, port: 17489, type: vmess, uuid: 6ee315ac-9967-4207-b336-687719f8c8b0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: 1.731808.cf, port: 443, type: vmess, uuid: 3ca7af1f-c4dd-41df-af7a-36a1f51ace63, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /2yevws, ws-headers: {Host: rn.1808.cf}, udp: true}
+  - {name: 美国(youtube阿伟科技) 3, server: lz74.aijiasu.xyz, port: 35575, type: vmess, uuid: d5ce3788-0311-494a-eb1d-59e6c1a90ccb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 4, server: lz74.aijiasu.xyz, port: 35575, type: vmess, uuid: d5ce3788-0311-494a-eb1d-59e6c1a90ccb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 5, server: 45.151.132.149, port: 14254, type: vmess, uuid: 826f9a5b-c63b-40fb-e549-f8fa4bc92cb5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 6, server: 185.149.21.116, port: 11188, type: vmess, uuid: dfe0bd78-0454-4923-8f21-111550a876c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hello, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国(youtube阿伟科技) 7, server: dtus1.bitznet.cloud, port: 33001, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtus1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 8, server: da.huala.gq, port: 56378, type: vmess, uuid: 1b58bedf-8878-41eb-e117-60c4ab17d6cf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 9, server: 216.24.248.122, port: 13643, type: vmess, uuid: 28b3048b-fb4e-4bee-c8f6-6c3310126c2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国(youtube阿伟科技) 4, server: 152.67.201.183, port: 1010, type: vmess, uuid: 18a9d9c5-b424-47c2-d95f-5540f9db3b53, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 10, server: 158.101.14.142, port: 80, type: vmess, uuid: 9ac4b735-40aa-4cb7-80dc-a2a39c6e47fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(youtube阿伟科技), server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 香港(youtube阿伟科技), server: 47.243.134.69, port: 54715, type: vmess, uuid: a8e5a043-8884-4cd9-a06c-4fcdb8b1fe7f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 11, server: erqi.live, port: 443, type: vmess, uuid: 7caa244f-37f1-4b0c-cc12-0c2d392d4f6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: erqi.live}, udp: true}
+  - {name: 法国(youtube阿伟科技), server: iplcfr1.bitznet.cloud, port: 34009, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: iplcfr1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 2, server: 47.243.134.69, port: 45829, type: vmess, uuid: fb3329ed-1fdd-43cf-f4c1-359787cd96ef, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 12, server: 38.91.102.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 美国(youtube阿伟科技) 13, server: 216.24.243.233, port: 11002, type: vmess, uuid: 190a635a-2511-466c-c21b-d4ce94e27ac5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技), server: 51.137.133.181, port: 41338, type: vmess, uuid: 36b535e0-cd4f-4889-8037-ef5e1b341449, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  48, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 3, server: 40.83.118.146, port: 20060, type: vmess, uuid: 3b73df50-12a4-4a57-87d9-4e11252f3af2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 14, server: 216.24.243.233, port: 29350, type: vmess, uuid: 471ce156-3980-4a4e-b901-a27df20e9d07, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 2, server: 51.137.133.181, port: 13828, type: vmess, uuid: 2b5ee2ed-ddaa-4f13-a86c-ee47acf26a0e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /dgfgdf, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 3, server: www.fuckdbuy.xyz, port: 57170, type: vmess, uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(youtube阿伟科技), server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 韩国(youtube阿伟科技) 5, server: 146.56.103.73, port: 28481, type: vmess, uuid: 2e717d95-38be-4b44-dbca-ddfaea76d7e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 15, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 16, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: us23.567568.ml}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 6, server: 150.230.249.15, port: 46842, type: vmess, uuid: 4530b5ee-ced4-4e64-9285-1867fc5df7f8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 挪威(youtube阿伟科技), server: 51.13.38.115, port: 51611, type: vmess, uuid: 297f4b35-a321-44b9-8a90-2d486d1153c1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fed, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 韩国(youtube阿伟科技) 7, server: 146.56.118.227, port: 2052, type: vmess, uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /update, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国(youtube阿伟科技) 17, server: 149.57.199.151, port: 30345, type: vmess, uuid: ba771461-5a4a-43f1-a61b-20d48e49e756, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fehc, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 迪拜(youtube阿伟科技), server: 120.233.150.146, port: 65066, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 加拿大(youtube阿伟科技) 2, server: 116.129.254.177, port: 65007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 日本(youtube阿伟科技) 3, server: jp-nrt-04-v2.cdn.savoy.click, port: 888, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 美国(youtube阿伟科技) 18, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: biznet-s.nextvpn.cc}, udp: true}
+  - {name: github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31, server: 192.3.124.36, port: 29585, type: vmess, uuid: d7f58c5e-e9cc-487f-c721-52cb79b96ac7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚(youtube阿伟科技)流解, server: 14.119.87.171, port: 55535, type: trojan, password: 38e5eb65-0a42-4b0d-9840-9131e338b542, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 日本(youtube阿伟科技) 4, server: 66.42.37.253, port: 23259, type: vmess, uuid: db36be71-e0bf-48fd-ebe4-07ebe157027b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: v2ray, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 香港(youtube阿伟科技) 4, server: 20.2.85.115, port: 44843, type: vmess, uuid: 5e7b93f7-6f81-4593-8d02-d00878ef0181, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 5, server: 40.83.112.144, port: 38071, type: vmess, uuid: 3e45d2a3-4afe-493e-c959-8607ef562dc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 6, server: 47.243.134.69, port: 13556, type: vmess, uuid: 25593dc0-997d-47e9-8941-0f3d73d38a9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 3, server: 185.167.78.44, port: 53430, type: vmess, uuid: 1f106fea-10c7-4988-feee-3736ec6701ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 4, server: 185.167.78.44, port: 49097, type: vmess, uuid: bb7979bf-ffda-4863-adb6-a44a4344463d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 5, server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 加拿大(youtube阿伟科技) 3, server: 196.247.59.154, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 英国(youtube阿伟科技) 6, server: 185.167.78.44, port: 19116, type: vmess, uuid: f5a88b4a-c578-4660-c7e2-9b897b9842c9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(youtube阿伟科技) 4, server: 196.247.59.154, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 4, server: 13.212.31.90, port: 11491, type: vmess, uuid: 5857d1b1-8d45-4da9-a1d4-f908ddf6d1a3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港(youtube阿伟科技) 7, server: 47.243.134.69, port: 15557, type: vmess, uuid: 0f20705e-597d-45ed-a573-e6a6551aabcf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 7, server: 185.167.78.44, port: 55055, type: vmess, uuid: 0a33e5ad-b356-4365-93ec-a800bbc6f752, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷(youtube阿伟科技), server: traar1.bitznet.cloud, port: 32015, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: traar1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 阿根廷(youtube阿伟科技) 2, server: dtar1.bitznet.cloud, port: 33015, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtar1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 英国(youtube阿伟科技) 8, server: 185.167.78.44, port: 24046, type: vmess, uuid: b06bcbaa-04eb-4c2f-df51-f2f4957e297c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 19, server: 116.129.254.177, port: 65072, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 北京市移动 28, server: hk-hkg-sh-hk-02-v2.cdn.savoy.click, port: 21088, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 5, server: 217.197.160.117, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 6, server: 217.197.160.117, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 7, server: 217.197.160.117, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 8, server: 217.197.160.117, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 9, server: 217.197.160.117, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 俄罗斯(youtube阿伟科技), server: dtru1.bitznet.cloud, port: 33008, type: trojan, password: 5ac6a82b-01e6-4156-9b1b-3c6fea1c5fa0, sni: dtru1.bitznet.cloud, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 20, server: us-lax-ctg-01-v2.cdn.savoy.click, port: 888, type: vmess, uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
+  - {name: 泰国(youtube阿伟科技), server: 8.213.193.87, port: 26220, type: vmess, uuid: 67f4239a-46af-44e9-dabe-0a88800ac7ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技) 21, server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技) 5, server: 150.230.199.177, port: 21696, type: vmess, uuid: 6b745caf-e7f6-49f1-9b63-e5c416303bac, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本(youtube阿伟科技) 6, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: github.com/freefq - 上海市电信 53, server: in-jp-1.iivvppnn.info, port: 38301, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-jp-1.iivvppnn.info}, udp: true}
   - {name: github.com/freefq - 上海市电信 52, server: ingress-i2.iivvppnn.info, port: 38106, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i2.iivvppnn.info}, udp: true}
+  - {name: 美国(youtube阿伟科技) 22, server: 63.209.33.52, port: 44204, type: vmess, uuid: 7673d8bd-cd3d-4893-d6f1-a72d4dbc3ca8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /234, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 泰国(youtube阿伟科技) 2, server: 8.213.193.87, port: 30355, type: vmess, uuid: 9dfba159-a530-4f04-fcc2-46d0c43f9d62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -196,188 +388,383 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 香港Microsoft数据中心 10
+      - 台湾(youtube阿伟科技)
       - 香港(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 香港(youtube阿伟科技) 3
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 香港(youtube阿伟科技) 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -393,45 +780,93 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 香港Microsoft数据中心 5
-      - github.com/freefq - 新加坡Amazon数据中心 50
-      - github.com/freefq - 欧洲  12
-      - github.com/freefq - 日本东京Choopa数据中心 23
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 广东省移动 59
-      - github.com/freefq - 美国Nokia 18
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 19
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 16
-      - github.com/freefq - 加拿大Carat网络公司(Carat Networks) 17
-      - github.com/freefq - 美国CloudFlare公司CDN节点 57
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 20
-      - github.com/freefq - 日本东京Amazon数据中心 14
-      - github.com/freefq - 美国加利福尼亚州费利蒙IT7网络 24
-      - github.com/freefq - 美国  21
-      - github.com/freefq - 美国DXC Technology 29
-      - 美国(youtube阿伟科技)
-      - github.com/freefq - 美国  48
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 30
-      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
-      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 41
-      - github.com/freefq - 美国Xerox 11
-      - github.com/freefq - 美国CloudFlare节点 58
-      - github.com/freefq - 北京市移动 28
-      - github.com/freefq - 美国  40
-      - github.com/freefq - 美国Microsoft数据中心 8
-      - github.com/freefq - 香港Microsoft数据中心 10
-      - github.com/freefq - 广东省佛山市移动 56
-      - github.com/freefq - 美国  36
-      - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国  27
-      - github.com/freefq - 美国  38
-      - github.com/freefq - 美国CloudFlare公司CDN节点 62
-      - github.com/freefq - 美国  55
-      - github.com/freefq - 美国弗吉尼亚州阿什本Amazon数据中心 32
-      - github.com/freefq - 广东省佛山市移动 6
+      - 新加坡(youtube阿伟科技) 2
+      - 韩国(youtube阿伟科技)
+      - 日本(youtube阿伟科技)
+      - 日本(youtube阿伟科技) 2
       - github.com/freefq - 广东省移动 61
-      - github.com/freefq - 美国  45
+      - 韩国(youtube阿伟科技) 2
+      - 印度(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 3
+      - 澳大利亚(youtube阿伟科技)
+      - 美国(youtube阿伟科技)_33
+      - 美国(youtube阿伟科技)
+      - 印度(youtube阿伟科技) 2
+      - 越南(youtube阿伟科技)
+      - 澳大利亚(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 6
+      - 美国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 9
+      - 韩国(youtube阿伟科技) 4
+      - 美国(youtube阿伟科技) 10
+      - 台湾(youtube阿伟科技)
+      - 香港(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 11
+      - 法国(youtube阿伟科技)
+      - 香港(youtube阿伟科技) 2
+      - 美国(youtube阿伟科技) 12
+      - 美国(youtube阿伟科技) 13
+      - 英国(youtube阿伟科技)
+      - github.com/freefq - 美国  48
+      - 香港(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 14
+      - 英国(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
+      - 加拿大(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 5
+      - 美国(youtube阿伟科技) 15
+      - 美国(youtube阿伟科技) 16
+      - 韩国(youtube阿伟科技) 6
+      - 挪威(youtube阿伟科技)
+      - 韩国(youtube阿伟科技) 7
+      - 美国(youtube阿伟科技) 17
+      - 迪拜(youtube阿伟科技)
+      - 加拿大(youtube阿伟科技) 2
+      - 日本(youtube阿伟科技) 3
+      - 美国(youtube阿伟科技) 18
+      - github.com/freefq - 美国伊利诺伊州芝加哥ColoCrossing数据中心 31
+      - 澳大利亚(youtube阿伟科技)流解
+      - github.com/freefq - 广东省佛山市移动 56
+      - 日本(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 5
+      - 香港(youtube阿伟科技) 6
+      - 英国(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 4
+      - 英国(youtube阿伟科技) 5
+      - 加拿大(youtube阿伟科技) 3
+      - 英国(youtube阿伟科技) 6
+      - 加拿大(youtube阿伟科技) 4
+      - 新加坡(youtube阿伟科技) 4
+      - 香港(youtube阿伟科技) 7
+      - 英国(youtube阿伟科技) 7
+      - 阿根廷(youtube阿伟科技)
+      - 阿根廷(youtube阿伟科技) 2
+      - 英国(youtube阿伟科技) 8
+      - 美国(youtube阿伟科技) 19
+      - github.com/freefq - 北京市移动 28
+      - 新加坡(youtube阿伟科技) 5
+      - 新加坡(youtube阿伟科技) 6
+      - 新加坡(youtube阿伟科技) 7
+      - 新加坡(youtube阿伟科技) 8
+      - 新加坡(youtube阿伟科技) 9
+      - 俄罗斯(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 20
+      - 泰国(youtube阿伟科技)
+      - 美国(youtube阿伟科技) 21
+      - 日本(youtube阿伟科技) 5
+      - 日本(youtube阿伟科技) 6
       - github.com/freefq - 上海市电信 53
       - github.com/freefq - 上海市电信 52
+      - 美国(youtube阿伟科技) 22
+      - 泰国(youtube阿伟科技) 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
