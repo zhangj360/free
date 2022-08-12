@@ -5,227 +5,167 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: github.com/freefq - 台湾省中华电信 70, server: 61.222.202.140, port: 33792, type: vmess, uuid: e55cd182-01b0-4fb7-a510-363701a491c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 61.222.202.140}, udp: true}
-  - {name: 德国(youtube阿伟科技)+解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 2ad895a4-90e1-460d-9291-bbfb3463190e, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 湖北省荆门市联通 3, server: 119.36.161.40, port: 443, type: vmess, uuid: 0af290ad-8266-4797-9625-e8b5f63c6776, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /F9rTJqewX, ws-headers: {Host: www.ezreal333.xyz}, udp: true}
   - {name: 美国(youtube阿伟科技), server: 158.101.14.142, port: 80, type: vmess, uuid: 9ac4b735-40aa-4cb7-80dc-a2a39c6e47fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国  15, server: 78.129.253.9, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 英国  17, server: 78.129.253.9, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: 38.91.102.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国  38, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(youtube阿伟科技), server: 134.195.196.85, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国(youtube阿伟科技) 3, server: cf.fullcloud.tk, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eisasqa, ws-headers: {Host: foxusa.fovi.tk}, udp: true}
-  - {name: 新加坡(youtube阿伟科技), server: www.fuckdbuy.xyz, port: 57170, type: vmess, uuid: 0fcee849-28e7-4251-87f3-e7cb9d95c00f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 2, server: 152.69.211.235, port: 80, type: vmess, uuid: d345916f-1673-4a98-f37d-49357c84ce03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国  48, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 4, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 瑞典  22, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33, server: 193.38.51.192, port: 852, type: vmess, uuid: 2e5f1241-e72e-4016-81e8-9d5c52ee0a16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41, server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: github.com/freefq - 加拿大  40, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: e7e5b769-2632-40f4-afb0-3b92bcfebd2b, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  44, server: 727tw01.ok365.cyou, port: 443, type: trojan, password: e7e5b769-2632-40f4-afb0-3b92bcfebd2b, sni: 727tw01.ok365.cyou, skip-cert-verify: true, udp: true}
   - {name: 香港(youtube阿伟科技), server: 40.83.112.144, port: 38071, type: vmess, uuid: 3e45d2a3-4afe-493e-c959-8607ef562dc1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus3.0bad.com}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 39, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
-  - {name: 英国(youtube阿伟科技), server: 89.238.165.226, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 伊朗  1, server: 212.50.246.200, port: 10042, type: vmess, uuid: 46c80bc2-6629-4ffc-d0ce-bdac0fc7a4f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 5, server: www.digitalocean.com, port: 443, type: vmess, uuid: 3df66137-a428-429c-a858-8b150721b354, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /youtbue@bai-piao-wang-zhe_vws, ws-headers: {Host: us23.567568.ml}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: github.com/freefq - 捷克  53, server: 176.119.156.229, port: 852, type: vmess, uuid: 2080d7ca-d6cd-4d23-b46e-2251483bd32c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68, server: 193.38.51.192, port: 852, type: vmess, uuid: 2080d7ca-d6cd-4d23-b46e-2251483bd32c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40, server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 3, server: 217.197.160.117, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 4, server: 217.197.160.117, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 欧盟  49, server: 45.8.230.253, port: 852, type: vmess, uuid: 2080d7ca-d6cd-4d23-b46e-2251483bd32c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 5, server: 217.197.160.117, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国(youtube阿伟科技) 6, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: biznet-s.nextvpn.cc}, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 6, server: 217.197.160.117, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国  4, server: 150.230.199.177, port: 21696, type: vmess, uuid: 6b745caf-e7f6-49f1-9b63-e5c416303bac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(youtube阿伟科技) 7, server: 217.197.160.117, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 台湾(youtube阿伟科技), server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 美国3COM公司企业网 52, server: 152.67.218.38, port: 443, type: vmess, uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 广东省佛山市移动 56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: 越南(youtube阿伟科技), server: 116.129.254.177, port: 65065, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25, server: 85.208.108.93, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 51, server: 104.18.24.139, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshkit/5206194863/62c7702a0ea8b/, ws-headers: {Host: sg1-v2ray.sshkit.org}, udp: true}
-  - {name: github.com/freefq - 新加坡Amazon数据中心 57, server: simpang.freetrade.link, port: 443, type: trojan, password: XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D, sni: simpang.freetrade.link, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 罗马尼亚  9, server: 109.166.39.205, port: 39205, type: vmess, uuid: 548cfd27-e18f-406b-84f6-74de849e27b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /tiktok, ws-headers: {Host: 109.166.39.205}, udp: true}
+  - {name: github.com/freefq - 捷克  43, server: 176.119.156.229, port: 852, type: vmess, uuid: 2e5f1241-e72e-4016-81e8-9d5c52ee0a16, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: d76bb35696.laowanxiang.com}, udp: true}
+  - {name: github.com/freefq - 瑞典  11, server: 167.88.61.14, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: github.com/freefq - 瑞典  16, server: 167.88.61.14, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国  37, server: 172.99.188.71, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: github.com/freefq - 塞舌尔  24, server: 196.247.59.154, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 乌克兰  47, server: 193.108.117.75, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30, server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 乌克兰  51, server: 193.108.117.75, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43, server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq+-+塞舌尔++10, server: 196.247.59.154, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: lms.uin-antasari.ac.id, port: 80, type: vmess, uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpnneo, ws-headers: {Host: biznet-s.nextvpn.cc}, udp: true}
+  - {name: github.com/freefq+-+塞舌尔++13, server: 196.247.59.154, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: github.com/freefq - 广东省佛山市移动 47, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: github.com/freefq - 俄罗斯  19, server: t03.ssrsub.com, port: 852, type: trojan, password: 2e5f1241-e72e-4016-81e8-9d5c52ee0a16, sni: t03.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 法国ONLINE S.A.S.数据中心 32, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 56, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 新加坡(youtube阿伟科技), server: 217.197.160.117, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: github.com/freefq - 日本  7, server: 146.56.118.227, port: 2052, type: vmess, uuid: 448a9087-28f3-4fe4-fa49-36c912e0f498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /update, ws-headers: {Host: 146.56.118.227}, udp: true}
-  - {name: github.com/freefq - 奥地利  27, server: 92.223.65.31, port: 29092, type: ss, cipher: chacha20-ietf-poly1305, password: ypoq8dJBPqst, udp: true}
-  - {name: github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23, server: 199.19.226.174, port: 443, type: vmess, uuid: 4858f70a-b37c-4bdf-ad41-3f9b8a6346c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2, ws-headers: {Host: 199.19.226.174}, udp: true}
-  - {name: 韩国(youtube阿伟科技), server: 116.129.254.177, port: 65048, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29, server: 85.208.108.93, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14, server: us.bw2.hyperlinkvpn.xyz, port: 50500, type: trojan, password: 220281b3-650f-4cdf-93f4-8a222e2dff27, sni: us.bw2.hyperlinkvpn.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 7, server: 116.129.254.177, port: 65072, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /rocket, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14, server: 85.208.108.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 希腊  26, server: 144.24.92.192, port: 443, type: vmess, uuid: 1743c2d9-bad1-4485-95a8-897145f09812, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  54, server: 137.184.118.47, port: 51649, type: vmess, uuid: 5d0b1709-5c3c-4073-fb3f-67251426571e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(youtube阿伟科技), server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: github.com/freefq - 北美地区  23, server: 23.227.194.145, port: 36195, type: vmess, uuid: fae6eae5-a5b5-41ba-b660-dc067340048f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国  28, server: 172.99.188.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 39, server: 104.19.3.16, port: 443, type: vmess, uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chcar, ws-headers: {Host: v2fly.samrt.website}, udp: true}
+  - {name: github.com/freefq - 美国  36, server: emby.metalink.cf, port: 8096, type: vmess, uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 北美地区  19, server: 107.173.83.214, port: 37541, type: vmess, uuid: ef59a586-0532-4763-f353-948eb413f00d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 日本M247网络 6, server: 185.172.113.102, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 35, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 2, server: 217.197.160.117, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 新加坡(youtube阿伟科技) 3, server: 217.197.160.117, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -244,62 +184,46 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 台湾省中华电信 70
       - 香港(youtube阿伟科技)
       - 台湾(youtube阿伟科技)
       - 🔰 节点选择
@@ -308,170 +232,125 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -487,57 +366,42 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - github.com/freefq - 台湾省中华电信 70
-      - 德国(youtube阿伟科技)+解锁流媒体
+      - github.com/freefq - 湖北省荆门市联通 3
       - 美国(youtube阿伟科技)
-      - github.com/freefq - 英国  15
-      - github.com/freefq - 英国  17
-      - 美国(youtube阿伟科技) 2
-      - github.com/freefq - 美国  38
-      - 加拿大(youtube阿伟科技)
-      - 美国(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技)
-      - 新加坡(youtube阿伟科技) 2
-      - github.com/freefq - 美国  48
-      - 美国(youtube阿伟科技) 4
-      - github.com/freefq - 瑞典  22
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 33
-      - github.com/freefq - 美国得克萨斯州达拉斯Linode数据中心 55
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 41
+      - github.com/freefq - 加拿大  40
+      - github.com/freefq - 加拿大  44
       - 香港(youtube阿伟科技)
-      - github.com/freefq - 美国加利福尼亚州费利蒙Linode数据中心 36
-      - github.com/freefq - 美国CloudFlare公司CDN节点 39
-      - 英国(youtube阿伟科技)
-      - github.com/freefq - 伊朗  1
-      - 美国(youtube阿伟科技) 5
-      - 日本(youtube阿伟科技)
-      - github.com/freefq - 捷克  53
-      - github.com/freefq - 俄罗斯新西伯利亚州新西伯利亚 68
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 40
-      - 新加坡(youtube阿伟科技) 3
-      - 新加坡(youtube阿伟科技) 4
-      - github.com/freefq - 欧盟  49
-      - 新加坡(youtube阿伟科技) 5
-      - 美国(youtube阿伟科技) 6
-      - 新加坡(youtube阿伟科技) 6
-      - github.com/freefq - 美国  4
-      - 新加坡(youtube阿伟科技) 7
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 美国3COM公司企业网 52
-      - github.com/freefq - 广东省佛山市移动 56
-      - 越南(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 25
-      - github.com/freefq - 美国CloudFlare公司CDN节点 51
-      - github.com/freefq - 新加坡Amazon数据中心 57
-      - github.com/freefq - 罗马尼亚  9
+      - github.com/freefq - 捷克  43
+      - github.com/freefq - 瑞典  11
+      - github.com/freefq - 瑞典  16
+      - github.com/freefq - 美国  37
+      - github.com/freefq - 塞舌尔  24
+      - github.com/freefq - 乌克兰  47
+      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 30
+      - github.com/freefq - 乌克兰  51
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+43
+      - github.com/freefq+-+塞舌尔++10
+      - 美国(youtube阿伟科技) 2
+      - github.com/freefq+-+塞舌尔++13
       - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 俄罗斯  19
+      - github.com/freefq - 法国ONLINE S.A.S.数据中心 32
+      - github.com/freefq - 广东省佛山市移动 56
+      - 新加坡(youtube阿伟科技)
       - github.com/freefq - 日本  7
-      - github.com/freefq - 奥地利  27
-      - github.com/freefq - 美国内华达州拉斯维加斯BuyVM 23
-      - 韩国(youtube阿伟科技)
-      - github.com/freefq - 沙特阿拉伯Arabic Computer System Co. 29
-      - github.com/freefq - 美国加利福尼亚州洛杉矶IT7网络 14
-      - 美国(youtube阿伟科技) 7
+      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+14
+      - github.com/freefq - 希腊  26
+      - github.com/freefq - 美国  54
+      - 台湾(youtube阿伟科技)
+      - github.com/freefq - 北美地区  23
+      - github.com/freefq - 美国  28
+      - github.com/freefq - 美国CloudFlare公司CDN节点 39
+      - github.com/freefq - 美国  36
+      - github.com/freefq - 北美地区  19
+      - github.com/freefq - 日本M247网络 6
+      - github.com/freefq - 广东省佛山市移动 35
+      - 新加坡(youtube阿伟科技) 2
+      - 新加坡(youtube阿伟科技) 3
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
