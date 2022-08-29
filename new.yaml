@@ -5,179 +5,155 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: US 8 → openitsub.com, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: 台湾(youtube阿伟科技), server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 美国(欢迎订阅Youtube元亨利贞), server: 38.75.136.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: DigitalOcean｜Cloudflare CDN4, server: 104.19.36.35, port: 80, type: vmess, uuid: 20000000-0000-0000-0000-000000000020, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /20, ws-headers: {Host: dosg.cdn.securevpn.cc}, udp: true}
   - {name: 美国 027, server: cf.naixii.top, port: 443, type: vmess, uuid: 5e6f7d1f-ae22-48b4-9d73-88314de4d4a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /qvFvfAfHvz, ws-headers: {Host: bvm.naixii.top}, udp: true}
+  - {name: github.com/freefq - 美国  22, server: usa001.369boy.com, port: 56301, type: trojan, password: 06bdd305-7399-4558-98d8-594ec44b4fed, sni: usa001.369boy.com, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇫🇷FR_84, server: powerservice.com, port: 443, type: vmess, uuid: 0764a598-82c4-4b41-ba10-551a625beed5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: uk2.v2rayserv.com}, udp: true}
+  - {name: github.com/freefq - 俄罗斯  19, server: 195.133.197.254, port: 443, type: vmess, uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: US_59, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
   - {name: _US_美国, server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 18, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.119, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 美国(欢迎订阅Youtube元亨利贞) 2, server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 美国(欢迎订阅Youtube元亨利贞) 3, server: 38.75.136.34, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 45, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 日本东京Amazon数据中心 6, server: 35.77.14.109, port: 58611, type: vmess, uuid: fb7fbd8f-6c61-40f2-858e-58502833497a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_27, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: US_58, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 2, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9, server: 198.211.4.60, port: 80, type: vmess, uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.211.4.60}, udp: true}
-  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28, server: 198.211.4.60, port: 80, type: vmess, uuid: 1c65cfed-0b0c-4e21-92aa-90c9663a654f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 198.211.4.60}, udp: true}
-  - {name: github.com/freefq - 台湾省新北市中华电信 19, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞), server: 38.121.43.204, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: github.com/freefq - 美国Microsoft数据中心 1, server: 20.24.85.244, port: 80, type: vmess, uuid: 7e1521db-9b26-4f59-8874-e2d8952b551f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 20.24.85.244}, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞), server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 2, server: 42.186.175.8, port: 443, type: vmess, uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.ml}, udp: true}
   - {name: github.com/freefq - 广东省佛山市移动 47, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: aweikeji-YouTube}, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 17, server: 38.75.136.34, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _US_美国 3, server: cloud.metalink.cf, port: 9090, type: vmess, uuid: 4cbffc21-d283-4ea9-f978-522cf367175f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cloud.metalink.cf}, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞), server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 2, server: 3.sg.zz.xxxxx.x-t-fuckword.network, port: 36679, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇭🇰HK_11, server: 14.29.124.174, port: 11031, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _US_美国 2, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_02, server: 14.29.124.168, port: 24006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞) 2, server: 38.75.136.34, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: github.com/freefq - 广东省佛山市移动 12, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%25257B%252522Host%252522:%252522aweikeji-YouTube%252522%25257D"}, udp: true}
+  - {name: US_58, server: 38.68.135.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _US_美国 3, server: 45.10.153.188, port: 37558, type: vmess, uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube元亨利贞) 3, server: 38.75.136.34, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: _US_美国 4, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 45, server: 38.121.43.204, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 伊朗(欢迎订阅Youtube元亨利贞), server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 3, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 5, server: cloud.metalink.cf, port: 9090, type: vmess, uuid: 4cbffc21-d283-4ea9-f978-522cf367175f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cloud.metalink.cf}, udp: true}
+  - {name: github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4, server: sky998dmit3.xyz, port: 443, type: trojan, password: RRy34GGwsPt47SuC, sni: sky998dmit3.xyz, skip-cert-verify: true, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 4, server: aliyun.moble.vnupgcn.cn, port: 9010, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 5, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_27, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
   - {name: _YouTube：资源分享师, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 香港-tg频道:@资源分享师, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 3, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 16, server: 38.91.107.37, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq - 广东省佛山市移动 15, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 4, server: aliyun.moble.vnupgcn.cn, port: 9008, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国华盛顿Cogent通信公司 41, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 5, server: 120.233.7.221, port: 18006, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国(欢迎订阅Youtube元亨利贞), server: 103.138.80.193, port: 14485, type: vmess, uuid: b687b974-701b-4a7b-e7a4-c7f8b5102723, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 6, server: aliyun.moble.vnupgcn.cn, port: 9014, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 7, server: aliyun.moble.vnupgcn.cn, port: 9032, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 8, server: aliyun.install01.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 广东省广州市移动 26, server: us-sjc-ap-v2.node.inforun.work, port: 788, type: vmess, uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
-  - {name: github.com/freefq - 美国  51, server: dynamic-sg2b.obfs.xyz, port: 443, type: vmess, uuid: 2725f8e6-be44-48f5-9e30-59af4d026db2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /fastssh, ws-headers: {Host: dynamic-sg2b.obfs.xyz}, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 9, server: aliyun.moble.vnupgcn.cn, port: 9012, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 10, server: aliyun.install02.vnupgcn.cn, port: 11904, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 6, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞) 7, server: aliyun.moble.vnupgcn.cn, port: 9011, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -196,51 +172,43 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾(youtube阿伟科技)
-      - github.com/freefq - 台湾省新北市中华电信 19
       - 香港-tg频道:@资源分享师
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -248,134 +216,116 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -391,45 +341,39 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - US 8 → openitsub.com
-      - 台湾(youtube阿伟科技)
-      - 美国(欢迎订阅Youtube元亨利贞)
+      - DigitalOcean｜Cloudflare CDN4
       - 美国 027
+      - github.com/freefq - 美国  22
       - Relay_🇺🇸US-🇫🇷FR_84
+      - github.com/freefq - 俄罗斯  19
+      - US_59
       - _US_美国
-      - github.com/freefq - 美国华盛顿Cogent通信公司 18
-      - _CH_瑞士
-      - 美国(欢迎订阅Youtube元亨利贞) 2
-      - 美国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 45
-      - github.com/freefq - 日本东京Amazon数据中心 6
-      - Relay_🇨🇳CN-🇹🇼TW_27
-      - US_58
-      - _US_美国 2
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 9
-      - github.com/freefq - 美国加利福尼亚州洛杉矶MULTACOM数据中心 28
-      - github.com/freefq - 台湾省新北市中华电信 19
-      - github.com/freefq - 广东省佛山市移动 47
-      - github.com/freefq - 美国华盛顿Cogent通信公司 17
-      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞)
+      - github.com/freefq - 美国Microsoft数据中心 1
       - 中国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 47
+      - Relay_🇨🇳CN-🇭🇰HK_11
+      - _US_美国 2
+      - Relay_🇨🇳CN-🇹🇼TW_02
+      - 美国(欢迎订阅Youtube元亨利贞) 2
+      - github.com/freefq - 广东省佛山市移动 12
+      - US_58
+      - _US_美国 3
+      - 美国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 4
+      - github.com/freefq - 美国华盛顿Cogent通信公司 45
+      - 伊朗(欢迎订阅Youtube元亨利贞)
+      - 中国(欢迎订阅Youtube元亨利贞) 3
+      - _US_美国 5
+      - github.com/freefq - 美国加利福尼亚州洛杉矶Cogent通信 4
+      - 中国(欢迎订阅Youtube元亨利贞) 4
+      - 中国(欢迎订阅Youtube元亨利贞) 5
+      - Relay_🇨🇳CN-🇹🇼TW_27
       - _YouTube：资源分享师
       - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 3
-      - github.com/freefq - 美国华盛顿Cogent通信公司 16
-      - github.com/freefq - 广东省佛山市移动 15
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - github.com/freefq - 美国华盛顿Cogent通信公司 41
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - 韩国(欢迎订阅Youtube元亨利贞)
       - 中国(欢迎订阅Youtube元亨利贞) 6
       - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
-      - github.com/freefq - 广东省广州市移动 26
-      - github.com/freefq - 美国  51
-      - 中国(欢迎订阅Youtube元亨利贞) 9
-      - 中国(欢迎订阅Youtube元亨利贞) 10
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
