@@ -5,267 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "@资源分享师_60", server: usamd.ptuu.tk, port: 443, type: vmess, uuid: 009a2a72-afe7-4521-fec0-391908a088c6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /123, ws-headers: {Host: usamd.ptuu.tk}, udp: true}
-  - {name: US_7307+@资源分享师, server: 169.197.143.232, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: TG@https://t.me/moneyfly2022      1099 |20.94Mb, server: 64.27.30.211, port: 14815, type: trojan, password: JDpCGXNLHq, skip-cert-verify: true, udp: true}
-  - {name: "@资源分享师_62", server: jparm.fineyoo.ml, port: 443, type: vmess, uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /123, ws-headers: {Host: jparm.fineyoo.ml}, udp: true}
-  - {name: 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: free.us2.ecydy.com, port: 443, type: vmess, uuid: c4831574-6b86-332e-a229-4d47812b0bb4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ecy, ws-headers: {Host: free.us2.ecydy.com}, udp: true}
-  - {name: "@资源分享师_67", server: eu.ptuu.tk, port: 443, type: vmess, uuid: 70d9bf20-3e6b-4cd3-ff28-b62567ff5a23, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: eu.ptuu.tk}, udp: true}
-  - {name: github.com/freefq - 美国  46, server: 45.136.70.19, port: 24298, type: vmess, uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _FI_芬兰, server: 45.136.70.19, port: 24298, type: vmess, uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 北美地区  8, server: 169.197.141.5, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2, server: 38.91.107.72, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国, server: 192.3.124.36, port: 29774, type: vmess, uuid: c7f8e9ff-82a6-49af-c772-ccf5b9092825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 英国  63, server: rbobosz.tk, port: 23868, type: trojan, password: gMVN7PbEX2, sni: rbobosz.tk, skip-cert-verify: true, udp: true}
-  - {name: 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3, server: 38.75.136.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _US_美国 2, server: 192.3.124.36, port: 29774, type: vmess, uuid: c7f8e9ff-82a6-49af-c772-ccf5b9092825, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: ‌🇨🇦CA_06+@资源分享师+2, server: 134.195.196.178, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 香港电讯盈科有限公司 15, server: zzhk.mayiyun.shop, port: 250, type: vmess, uuid: 8f82bec4-1b2f-4364-8e94-007219e753fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4, server: 38.75.136.34, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ‌🇨🇦CA_09+@资源分享师+2, server: 134.195.196.178, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: github.com/freefq - 美国  46 2, server: 45.136.70.19, port: 24298, type: vmess, uuid: 7324d2bf-e241-4ede-b490-753dc26b1b8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 14, server: la60cf.hotfun.buzz, port: 2087, type: vmess, uuid: 935f34c1-1713-402c-bfe1-f051cf49d370, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Hot, ws-headers: {Host: la60cf.hotfun.buzz}, udp: true}
-  - {name: github.com/freefq - 广东省深圳市移动 17, server: i1.go001.buzz, port: 32201, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
   - {name: 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: 183.240.196.147, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
   - {name: 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: 42.186.175.8, port: 443, type: vmess, uuid: 2962b6dc-8de5-40c2-f5fb-5039f72d9a95, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.ml}, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国, server: apt.v2-moble.mipglxi.cn, port: 5404, type: ss, cipher: aes-128-gcm, password: 0a228809-a1d7-4143-944a-071b105ab9c7, udp: true}
-  - {name: github.com/freefq - 北京市移动 37, server: yum-y.update.mipglxi.cn, port: 6417, type: ss, cipher: aes-128-gcm, password: 3ee653cf-3f43-43e5-b4d0-7bb1cabe9845, udp: true}
-  - {name: US_5601+@资源分享师, server: 169.197.143.232, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞), server: aliyun.install01.vnupgcn.cn, port: 11915, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5, server: 38.75.136.34, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: _CH_瑞士, server: 185.126.116.123, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: _CH_瑞士 2, server: 185.126.116.123, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: _CH_瑞士 3, server: 185.126.116.123, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_14, server: 14.29.124.168, port: 24007, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: github.com/freefq - 北京市移动 11, server: gyjp3.333003.xyz, port: 16914, type: ss, cipher: chacha20-ietf-poly1305, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, udp: true}
-  - {name: _NL_荷兰, server: 213.183.59.211, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: DE_2376+@资源分享师, server: 193.108.118.30, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 中国(欢迎订阅Youtube元亨利贞), server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22in-us-1.onebox6.org%22%7D"}, udp: true}
+  - {name: 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: i1.go001.buzz, port: 31905, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
+  - {name: _US_美国, server: www.sxsy88.tk, port: 44150, type: trojan, password: zFyLKH62WN, sni: www.sxsy88.tk, skip-cert-verify: true, udp: true}
   - {name: github.com/freefq - 广东省佛山市移动 30, server: in-sg-1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: DE_5000+@资源分享师, server: 193.108.118.30, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: 193.38.139.204, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 2, server: apt.v2-moble.mipglxi.cn, port: 5403, type: ss, cipher: aes-128-gcm, password: 0a228809-a1d7-4143-944a-071b105ab9c7, udp: true}
-  - {name: _NL_荷兰 2, server: 213.183.59.211, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: DE_8009+@资源分享师, server: 193.108.118.30, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: github.com/freefq - 美国  28, server: 168.138.171.65, port: 443, type: vmess, uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国 3, server: 36.137.199.99, port: 5406, type: ss, cipher: aes-128-gcm, password: 0a228809-a1d7-4143-944a-071b105ab9c7, udp: true}
-  - {name: _NL_荷兰 3, server: 213.183.59.211, port: 9061, type: ss, cipher: aes-256-cfb, password: 4R3hUfZ2FHhDmNcP, udp: true}
-  - {name: DE_3389+@资源分享师, server: 193.108.118.30, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12, server: 8.9.30.35, port: 443, type: vmess, uuid: 7a0ab83d-5293-4020-c9c7-97639d2b5d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.9.30.35}, udp: true}
   - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: 4.3.1.fuckppppp.today, port: 58418, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CH_瑞士 4, server: 185.126.116.123, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
+  - {name: github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7, server: 51fanfirewall.monster, port: 443, type: vmess, uuid: 7a0ab83d-5293-4020-c9c7-97639d2b5d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 51fanfirewall.monster}, udp: true}
+  - {name: 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体, server: els.tdzjing.xyz, port: 80, type: vmess, uuid: 00000000-1111-1111-1111-222222222222, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_27, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: www.ivpnpro.net}, udp: true}
-  - {name: github.com/freefq - 北京市移动 30, server: 36.137.199.94, port: 5408, type: ss, cipher: aes-128-gcm, password: 0a228809-a1d7-4143-944a-071b105ab9c7, udp: true}
+  - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%7B%22Host%22:%22YouTube-aweikeji%22%7D"}, udp: true}
+  - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%25257B%252522Host%252522:%252522YouTube-aweikeji%252522%25257D"}, udp: true}
+  - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4, server: aliyun.moble.vnupgcn.cn, port: 9007, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 中国(欢迎订阅Youtube元亨利贞) 2, server: aliyun.install02.vnupgcn.cn, port: 11916, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _JP_日本, server: 168.138.201.208, port: 10328, type: vmess, uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2, server: 120.240.55.137, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: 120.240.55.137}, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 3, server: aliyun.install02.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: "%25257B%252522Host%252522:%252522aweikeji-YouTube%252522%25257D"}, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 4, server: aliyun.install02.vnupgcn.cn, port: 11911, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 5, server: aliyun.install02.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _RU_俄罗斯联邦, server: 213.183.53.198, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 6, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-tg频道:@资源分享师, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 7, server: aliyun.install03.vnupgcn.cn, port: 11923, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国(欢迎订阅Youtube元亨利贞) 8, server: aliyun.install03.vnupgcn.cn, port: 11934, type: vmess, uuid: 0253b574-8020-3186-a647-0267295ac9bb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 2, server: 8.9.30.35, port: 443, type: vmess, uuid: 7a0ab83d-5293-4020-c9c7-97639d2b5d3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 8.9.30.35}, udp: true}
+  - {name: 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2, server: 42.186.175.8, port: 443, type: vmess, uuid: a928a26c-2adb-45fe-e57d-8a27dade309e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: sgarm.ptuu.cf}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -284,273 +108,95 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 香港-tg频道:@资源分享师
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -566,67 +212,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@资源分享师_60"
-      - US_7307+@资源分享师
-      - TG@https://t.me/moneyfly2022      1099 |20.94Mb
-      - "@资源分享师_62"
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - "@资源分享师_67"
-      - github.com/freefq - 美国  46
-      - _FI_芬兰
-      - github.com/freefq - 北美地区  8
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - _US_美国
-      - github.com/freefq - 英国  63
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
-      - _US_美国 2
-      - ‌🇨🇦CA_06+@资源分享师+2
-      - github.com/freefq - 香港电讯盈科有限公司 15
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
-      - ‌🇨🇦CA_09+@资源分享师+2
-      - github.com/freefq - 美国  46 2
-      - github.com/freefq - 美国CloudFlare节点 14
-      - github.com/freefq - 广东省深圳市移动 17
       - 英国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国
-      - github.com/freefq - 北京市移动 37
-      - US_5601+@资源分享师
       - 中国(欢迎订阅Youtube元亨利贞)
-      - 美国📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 5
-      - _CH_瑞士
-      - _CH_瑞士 2
-      - _CH_瑞士 3
-      - Relay_🇨🇳CN-🇹🇼TW_14
-      - github.com/freefq - 北京市移动 11
-      - _NL_荷兰
-      - DE_2376+@资源分享师
+      - 欧洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
+      - _US_美国
       - github.com/freefq - 广东省佛山市移动 30
-      - DE_5000+@资源分享师
-      - 日本📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CN_中国->🇺🇸_US_美国 2
-      - _NL_荷兰 2
-      - DE_8009+@资源分享师
-      - github.com/freefq - 美国  28
-      - _CN_中国->🇺🇸_US_美国 3
-      - _NL_荷兰 3
-      - DE_3389+@资源分享师
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 12
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
-      - _CH_瑞士 4
+      - github.com/freefq - 美国科罗拉多州布隆菲尔德市Level 3通信股份有限公司 7
+      - 俄罗斯📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体
       - Relay_🇨🇳CN-🇹🇼TW_27
-      - github.com/freefq - 北京市移动 30
-      - 中国(欢迎订阅Youtube元亨利贞) 2
-      - _JP_日本
-      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 3
       - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
-      - 中国(欢迎订阅Youtube元亨利贞) 4
-      - 中国(欢迎订阅Youtube元亨利贞) 5
-      - _RU_俄罗斯联邦
-      - 中国(欢迎订阅Youtube元亨利贞) 6
-      - 香港-tg频道:@资源分享师
-      - 中国(欢迎订阅Youtube元亨利贞) 7
-      - 中国(欢迎订阅Youtube元亨利贞) 8
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 3
+      - 亚洲📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 4
+      - 中国(欢迎订阅Youtube元亨利贞) 2
+      - _US_美国 2
+      - 新加坡📔工具大师自用机场：kuaiyin.info晚高峰8K流媒体 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
