@@ -1,0 +1,1008 @@
+---
+mixed-port: 7890
+allow-lan: true
+bind-address: "*"
+mode: rule
+log-level: info
+external-controller: 127.0.0.1:9090
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  fake-ip-range: 198.18.0.1/16
+  use-hosts: true
+  nameserver:
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://doh.dns.sb/dns-query
+  - https://dns.cloudflare.com/dns-query
+  - https://dns.twnic.tw/dns-query
+  - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+ - 240.0.0.0/4
+ - 0.0.0.0/32
+proxies:
+- name: 香港01
+  type: ss
+  server: hk01.x.quickcht3.club
+  port: 52611
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 香港02
+  type: ss
+  server: hk02.x.quickcht3.club
+  port: 52612
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 香港03
+  type: ss
+  server: hk03.x.quickcht3.club
+  port: 52613
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 香港04
+  type: ss
+  server: hk04.x.quickcht3.club
+  port: 52614
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 香港05
+  type: ss
+  server: hk05.x.quickcht3.club
+  port: 52615
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 香港06
+  type: ss
+  server: hk06.x.quickcht3.club
+  port: 52616
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾01
+  type: ss
+  server: tw01.x.quickcht3.club
+  port: 52661
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾02
+  type: ss
+  server: tw02.x.quickcht3.club
+  port: 52662
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾03
+  type: ss
+  server: tw03.x.quickcht3.club
+  port: 52663
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾04
+  type: ss
+  server: tw04.x.quickcht3.club
+  port: 52664
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾05
+  type: ss
+  server: tw05.x.quickcht3.club
+  port: 52665
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 台湾06
+  type: ss
+  server: tw06.x.quickcht3.club
+  port: 52666
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本02
+  type: ss
+  server: jp02.x.quickcht3.club
+  port: 52622
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本01
+  type: ss
+  server: jp01.x.quickcht3.club
+  port: 52621
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本03
+  type: ss
+  server: jp03.x.quickcht3.club
+  port: 52623
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本04
+  type: ss
+  server: jp04.x.quickcht3.club
+  port: 52624
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本05
+  type: ss
+  server: jp05.x.quickcht3.club
+  port: 52625
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 日本06
+  type: ss
+  server: jp06.x.quickcht3.club
+  port: 52626
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡01
+  type: ss
+  server: sg01.x.quickcht3.club
+  port: 52631
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡02
+  type: ss
+  server: sg02.x.quickcht3.club
+  port: 52632
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡03
+  type: ss
+  server: sg03.x.quickcht3.club
+  port: 52633
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡04
+  type: ss
+  server: sg04.x.quickcht3.club
+  port: 52634
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡05
+  type: ss
+  server: sg05.x.quickcht3.club
+  port: 52635
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 新加坡06
+  type: ss
+  server: sg06.x.quickcht3.club
+  port: 52636
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国01
+  type: ss
+  server: kr01.x.quickcht3.club
+  port: 52601
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国02
+  type: ss
+  server: kr02.x.quickcht3.club
+  port: 52602
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国03
+  type: ss
+  server: kr03.x.quickcht3.club
+  port: 52603
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国04
+  type: ss
+  server: kr04.x.quickcht3.club
+  port: 52604
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国05
+  type: ss
+  server: kr05.x.quickcht3.club
+  port: 52605
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 韩国06
+  type: ss
+  server: kr06.x.quickcht3.club
+  port: 52604
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国01
+  type: ss
+  server: us01.x.quickcht3.club
+  port: 52671
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国02
+  type: ss
+  server: us02.x.quickcht3.club
+  port: 52672
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国03
+  type: ss
+  server: us03.x.quickcht3.club
+  port: 52673
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国04
+  type: ss
+  server: us04.x.quickcht3.club
+  port: 52674
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国05
+  type: ss
+  server: us05.x.quickcht3.club
+  port: 52675
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+- name: 美国06
+  type: ss
+  server: us06.x.quickcht3.club
+  port: 52676
+  cipher: chacha20-ietf-poly1305
+  password: 9c02cc61-914b-4f7d-a7e8-68dee06966d2
+  udp: true
+proxy-groups:
+- name: QuickCat
+  type: select
+  proxies:
+  - 自动选择
+  - 故障转移
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港04
+  - 香港05
+  - 香港06
+  - 台湾01
+  - 台湾02
+  - 台湾03
+  - 台湾04
+  - 台湾05
+  - 台湾06
+  - 日本02
+  - 日本01
+  - 日本03
+  - 日本04
+  - 日本05
+  - 日本06
+  - 新加坡01
+  - 新加坡02
+  - 新加坡03
+  - 新加坡04
+  - 新加坡05
+  - 新加坡06
+  - 韩国01
+  - 韩国02
+  - 韩国03
+  - 韩国04
+  - 韩国05
+  - 韩国06
+  - 美国01
+  - 美国02
+  - 美国03
+  - 美国04
+  - 美国05
+  - 美国06
+- name: BIGO
+  type: select
+  proxies:
+  - 新日台自动
+  - 台湾01
+  - 台湾02
+  - 台湾03
+  - 台湾04
+  - 台湾05
+  - 台湾06
+  - 日本02
+  - 日本01
+  - 日本03
+  - 日本04
+  - 日本05
+  - 日本06
+  - 新加坡01
+  - 新加坡02
+  - 新加坡03
+  - 新加坡04
+  - 新加坡05
+  - 新加坡06
+- name: 自动选择
+  type: url-test
+  proxies:
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港04
+  - 香港05
+  - 香港06
+  - 台湾01
+  - 台湾02
+  - 台湾03
+  - 台湾04
+  - 台湾05
+  - 台湾06
+  - 日本02
+  - 日本01
+  - 日本03
+  - 日本04
+  - 日本05
+  - 日本06
+  - 新加坡01
+  - 新加坡02
+  - 新加坡03
+  - 新加坡04
+  - 新加坡05
+  - 新加坡06
+  - 韩国01
+  - 韩国02
+  - 韩国03
+  - 韩国04
+  - 韩国05
+  - 韩国06
+  - 美国01
+  - 美国02
+  - 美国03
+  - 美国04
+  - 美国05
+  - 美国06
+  url: http://www.gstatic.com/generate_204
+  interval: 86400
+- name: 新日台自动
+  type: url-test
+  proxies:
+  - 台湾01
+  - 台湾02
+  - 台湾03
+  - 台湾04
+  - 台湾05
+  - 台湾06
+  - 日本02
+  - 日本01
+  - 日本03
+  - 日本04
+  - 日本05
+  - 日本06
+  - 新加坡01
+  - 新加坡02
+  - 新加坡03
+  - 新加坡04
+  - 新加坡05
+  - 新加坡06
+  url: http://www.gstatic.com/generate_204
+  interval: 86400
+- name: 故障转移
+  type: fallback
+  proxies:
+  - 香港01
+  - 香港02
+  - 香港03
+  - 香港04
+  - 香港05
+  - 香港06
+  - 台湾01
+  - 台湾02
+  - 台湾03
+  - 台湾04
+  - 台湾05
+  - 台湾06
+  - 日本02
+  - 日本01
+  - 日本03
+  - 日本04
+  - 日本05
+  - 日本06
+  - 新加坡01
+  - 新加坡02
+  - 新加坡03
+  - 新加坡04
+  - 新加坡05
+  - 新加坡06
+  - 韩国01
+  - 韩国02
+  - 韩国03
+  - 韩国04
+  - 韩国05
+  - 韩国06
+  - 美国01
+  - 美国02
+  - 美国03
+  - 美国04
+  - 美国05
+  - 美国06
+  url: http://www.gstatic.com/generate_204
+  interval: 7200
+rules:
+- DOMAIN,kuaimao6.club,DIRECT
+- DOMAIN-SUFFIX,yebanhua.online,DIRECT
+- DOMAIN-SUFFIX,appsflyersdk.com,BIGO
+- DOMAIN-KEYWORD,bigopay,BIGO
+- DOMAIN-KEYWORD,facebook,BIGO
+- DOMAIN-KEYWORD,google,BIGO
+- DOMAIN-SUFFIX,app-analytics-services.com,BIGO
+- DOMAIN-SUFFIX,dfaklj.tech,BIGO
+- DOMAIN-SUFFIX,app-measurement.com,BIGO
+- DOMAIN-SUFFIX,bdesk.tech,BIGO
+- DOMAIN-SUFFIX,bigo.tv,DIRECT
+- DOMAIN-SUFFIX,bigolive.tv,DIRECT
+- DOMAIN-SUFFIX,bigovideo.tv,DIRECT
+- DOMAIN-SUFFIX,giphy.com,BIGO
+- DOMAIN-SUFFIX,hzmk.site,BIGO
+- DOMAIN-SUFFIX,like.video,DIRECT
+- DOMAIN-SUFFIX,likee.video,DIRECT
+- DOMAIN-SUFFIX,like-video.com,DIRECT
+- DOMAIN-SUFFIX,linhty.xyz,BIGO
+- DOMAIN-SUFFIX,sgmbocast.com,BIGO
+- IP-CIDR,202.168.0.0/16,DIRECT,no-resolve
+- IP-CIDR,202.63.0.0/16,DIRECT,no-resolve
+- IP-CIDR,116.63.0.0/16,DIRECT,no-resolve
+- IP-CIDR,103.139.72.231/32,DIRECT,no-resolve
+- IP-CIDR,169.136.0.0/16,DIRECT,no-resolve
+- IP-CIDR,164.90.0.0/16,DIRECT,no-resolve
+- DOMAIN-SUFFIX,facebook.com,BIGO
+- DOMAIN-SUFFIX,piojm.tech,BIGO
+- DOMAIN-SUFFIX,weihuitel.com,BIGO
+- DOMAIN-SUFFIX,ukyuh.tech,BIGO
+- DOMAIN-SUFFIX,bigo.sg,BIGO
+- DOMAIN-SUFFIX,f2ecdn.com,BIGO
+- IP-CIDR,58.217.0.0/16,BIGO,no-resolve
+- IP-CIDR,58.221.0.0/16,BIGO,no-resolve
+- IP-CIDR,18.164.0.0/16,BIGO,no-resolve
+- IP-CIDR,18.244.0.0/16,BIGO,no-resolve
+- IP-CIDR,13.33.0.0/16,BIGO,no-resolve
+- IP-CIDR,13.32.0.0/16,BIGO,no-resolve
+- IP-CIDR,3.163.0.0/16,BIGO,no-resolve
+- IP-CIDR,52.222.0.0/16,BIGO,no-resolve
+- IP-CIDR,52.85.0.0/16,BIGO,no-resolve
+- IP-CIDR,13.225.0.0/16,BIGO,no-resolve
+- IP-CIDR,113.105.0.0/16,BIGO,no-resolve
+- IP-CIDR,91.108.0.0/16,BIGO,no-resolve
+- DOMAIN-SUFFIX,services.googleapis.cn,QuickCat
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,QuickCat
+- DOMAIN,safebrowsing.urlsec.qq.com,DIRECT
+- DOMAIN,safebrowsing.googleapis.com,DIRECT
+- DOMAIN,developer.apple.com,QuickCat
+- DOMAIN-SUFFIX,digicert.com,QuickCat
+- DOMAIN,ocsp.apple.com,QuickCat
+- DOMAIN,ocsp.comodoca.com,QuickCat
+- DOMAIN,ocsp.usertrust.com,QuickCat
+- DOMAIN,ocsp.sectigo.com,QuickCat
+- DOMAIN,ocsp.verisign.net,QuickCat
+- DOMAIN-SUFFIX,apple-dns.net,QuickCat
+- DOMAIN,testflight.apple.com,QuickCat
+- DOMAIN,sandbox.itunes.apple.com,QuickCat
+- DOMAIN,itunes.apple.com,QuickCat
+- DOMAIN-SUFFIX,apps.apple.com,QuickCat
+- DOMAIN-SUFFIX,blobstore.apple.com,QuickCat
+- DOMAIN,cvws.icloud-content.com,QuickCat
+- DOMAIN-SUFFIX,mzstatic.com,DIRECT
+- DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+- DOMAIN-SUFFIX,icloud.com,DIRECT
+- DOMAIN-SUFFIX,icloud-content.com,DIRECT
+- DOMAIN-SUFFIX,me.com,DIRECT
+- DOMAIN-SUFFIX,aaplimg.com,DIRECT
+- DOMAIN-SUFFIX,cdn20.com,DIRECT
+- DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+- DOMAIN-SUFFIX,akadns.net,DIRECT
+- DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+- DOMAIN-SUFFIX,edgekey.net,DIRECT
+- DOMAIN-SUFFIX,mwcloudcdn.com,DIRECT
+- DOMAIN-SUFFIX,mwcname.com,DIRECT
+- DOMAIN-SUFFIX,apple.com,DIRECT
+- DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+- DOMAIN-SUFFIX,apple-mapkit.com,DIRECT
+- DOMAIN-SUFFIX,126.com,DIRECT
+- DOMAIN-SUFFIX,126.net,DIRECT
+- DOMAIN-SUFFIX,127.net,DIRECT
+- DOMAIN-SUFFIX,163.com,DIRECT
+- DOMAIN-SUFFIX,360buyimg.com,DIRECT
+- DOMAIN-SUFFIX,36kr.com,DIRECT
+- DOMAIN-SUFFIX,acfun.tv,DIRECT
+- DOMAIN-SUFFIX,air-matters.com,DIRECT
+- DOMAIN-SUFFIX,aixifan.com,DIRECT
+- DOMAIN-KEYWORD,alicdn,DIRECT
+- DOMAIN-KEYWORD,alipay,DIRECT
+- DOMAIN-KEYWORD,taobao,DIRECT
+- DOMAIN-SUFFIX,amap.com,DIRECT
+- DOMAIN-SUFFIX,autonavi.com,DIRECT
+- DOMAIN-KEYWORD,baidu,DIRECT
+- DOMAIN-SUFFIX,bdimg.com,DIRECT
+- DOMAIN-SUFFIX,bdstatic.com,DIRECT
+- DOMAIN-SUFFIX,bilibili.com,DIRECT
+- DOMAIN-SUFFIX,bilivideo.com,DIRECT
+- DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+- DOMAIN-SUFFIX,clouddn.com,DIRECT
+- DOMAIN-SUFFIX,cnbeta.com,DIRECT
+- DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+- DOMAIN-SUFFIX,cootekservice.com,DIRECT
+- DOMAIN-SUFFIX,csdn.net,DIRECT
+- DOMAIN-SUFFIX,ctrip.com,DIRECT
+- DOMAIN-SUFFIX,dgtle.com,DIRECT
+- DOMAIN-SUFFIX,dianping.com,DIRECT
+- DOMAIN-SUFFIX,douban.com,DIRECT
+- DOMAIN-SUFFIX,doubanio.com,DIRECT
+- DOMAIN-SUFFIX,duokan.com,DIRECT
+- DOMAIN-SUFFIX,easou.com,DIRECT
+- DOMAIN-SUFFIX,ele.me,DIRECT
+- DOMAIN-SUFFIX,feng.com,DIRECT
+- DOMAIN-SUFFIX,fir.im,DIRECT
+- DOMAIN-SUFFIX,frdic.com,DIRECT
+- DOMAIN-SUFFIX,g-cores.com,DIRECT
+- DOMAIN-SUFFIX,godic.net,DIRECT
+- DOMAIN-SUFFIX,gtimg.com,DIRECT
+- DOMAIN,cdn.hockeyapp.net,DIRECT
+- DOMAIN-SUFFIX,hongxiu.com,DIRECT
+- DOMAIN-SUFFIX,hxcdn.net,DIRECT
+- DOMAIN-SUFFIX,iciba.com,DIRECT
+- DOMAIN-SUFFIX,ifeng.com,DIRECT
+- DOMAIN-SUFFIX,ifengimg.com,DIRECT
+- DOMAIN-SUFFIX,ipip.net,DIRECT
+- DOMAIN-SUFFIX,iqiyi.com,DIRECT
+- DOMAIN-SUFFIX,jd.com,DIRECT
+- DOMAIN-SUFFIX,jianshu.com,DIRECT
+- DOMAIN-SUFFIX,knewone.com,DIRECT
+- DOMAIN-SUFFIX,le.com,DIRECT
+- DOMAIN-SUFFIX,lecloud.com,DIRECT
+- DOMAIN-SUFFIX,lemicp.com,DIRECT
+- DOMAIN-SUFFIX,licdn.com,DIRECT
+- DOMAIN-SUFFIX,luoo.net,DIRECT
+- DOMAIN-SUFFIX,meituan.com,DIRECT
+- DOMAIN-SUFFIX,meituan.net,DIRECT
+- DOMAIN-SUFFIX,mi.com,DIRECT
+- DOMAIN-SUFFIX,miaopai.com,DIRECT
+- DOMAIN-SUFFIX,microsoft.com,DIRECT
+- DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+- DOMAIN-SUFFIX,miui.com,DIRECT
+- DOMAIN-SUFFIX,miwifi.com,DIRECT
+- DOMAIN-SUFFIX,mob.com,DIRECT
+- DOMAIN-SUFFIX,netease.com,DIRECT
+- DOMAIN-SUFFIX,office.com,DIRECT
+- DOMAIN-SUFFIX,office365.com,DIRECT
+- DOMAIN-KEYWORD,officecdn,DIRECT
+- DOMAIN-SUFFIX,oschina.net,DIRECT
+- DOMAIN-SUFFIX,ppsimg.com,DIRECT
+- DOMAIN-SUFFIX,pstatp.com,DIRECT
+- DOMAIN-SUFFIX,qcloud.com,DIRECT
+- DOMAIN-SUFFIX,qdaily.com,DIRECT
+- DOMAIN-SUFFIX,qdmm.com,DIRECT
+- DOMAIN-SUFFIX,qhimg.com,DIRECT
+- DOMAIN-SUFFIX,qhres.com,DIRECT
+- DOMAIN-SUFFIX,qidian.com,DIRECT
+- DOMAIN-SUFFIX,qihucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiniu.com,DIRECT
+- DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+- DOMAIN-SUFFIX,qiyipic.com,DIRECT
+- DOMAIN-SUFFIX,qq.com,DIRECT
+- DOMAIN-SUFFIX,qqurl.com,DIRECT
+- DOMAIN-SUFFIX,rarbg.to,DIRECT
+- DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+- DOMAIN-SUFFIX,segmentfault.com,DIRECT
+- DOMAIN-SUFFIX,sinaapp.com,DIRECT
+- DOMAIN-SUFFIX,smzdm.com,DIRECT
+- DOMAIN-SUFFIX,snapdrop.net,DIRECT
+- DOMAIN-SUFFIX,sogou.com,DIRECT
+- DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+- DOMAIN-SUFFIX,sohu.com,DIRECT
+- DOMAIN-SUFFIX,soku.com,DIRECT
+- DOMAIN-SUFFIX,speedtest.net,DIRECT
+- DOMAIN-SUFFIX,sspai.com,DIRECT
+- DOMAIN-SUFFIX,suning.com,DIRECT
+- DOMAIN-SUFFIX,taobao.com,DIRECT
+- DOMAIN-SUFFIX,tencent.com,DIRECT
+- DOMAIN-SUFFIX,tenpay.com,DIRECT
+- DOMAIN-SUFFIX,tianyancha.com,DIRECT
+- DOMAIN-SUFFIX,tmall.com,DIRECT
+- DOMAIN-SUFFIX,tudou.com,DIRECT
+- DOMAIN-SUFFIX,umetrip.com,DIRECT
+- DOMAIN-SUFFIX,upaiyun.com,DIRECT
+- DOMAIN-SUFFIX,upyun.com,DIRECT
+- DOMAIN-SUFFIX,veryzhun.com,DIRECT
+- DOMAIN-SUFFIX,weather.com,DIRECT
+- DOMAIN-SUFFIX,weibo.com,DIRECT
+- DOMAIN-SUFFIX,xiami.com,DIRECT
+- DOMAIN-SUFFIX,xiami.net,DIRECT
+- DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+- DOMAIN-SUFFIX,ximalaya.com,DIRECT
+- DOMAIN-SUFFIX,xmcdn.com,DIRECT
+- DOMAIN-SUFFIX,xunlei.com,DIRECT
+- DOMAIN-SUFFIX,yhd.com,DIRECT
+- DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+- DOMAIN-SUFFIX,yinxiang.com,DIRECT
+- DOMAIN-SUFFIX,ykimg.com,DIRECT
+- DOMAIN-SUFFIX,youdao.com,DIRECT
+- DOMAIN-SUFFIX,youku.com,DIRECT
+- DOMAIN-SUFFIX,zealer.com,DIRECT
+- DOMAIN-SUFFIX,zhihu.com,DIRECT
+- DOMAIN-SUFFIX,zhimg.com,DIRECT
+- DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+- DOMAIN-SUFFIX,zoho.com,DIRECT
+- DOMAIN-KEYWORD,amazon,QuickCat
+- DOMAIN-KEYWORD,google,QuickCat
+- DOMAIN-KEYWORD,gmail,QuickCat
+- DOMAIN-KEYWORD,youtube,QuickCat
+- DOMAIN-KEYWORD,facebook,QuickCat
+- DOMAIN-SUFFIX,fb.me,QuickCat
+- DOMAIN-SUFFIX,fbcdn.net,QuickCat
+- DOMAIN-KEYWORD,twitter,QuickCat
+- DOMAIN-KEYWORD,instagram,QuickCat
+- DOMAIN-KEYWORD,dropbox,QuickCat
+- DOMAIN-SUFFIX,twimg.com,QuickCat
+- DOMAIN-KEYWORD,blogspot,QuickCat
+- DOMAIN-SUFFIX,youtu.be,QuickCat
+- DOMAIN-KEYWORD,whatsapp,QuickCat
+- DOMAIN-KEYWORD,admarvel,REJECT
+- DOMAIN-KEYWORD,admaster,REJECT
+- DOMAIN-KEYWORD,adsage,REJECT
+- DOMAIN-KEYWORD,adsmogo,REJECT
+- DOMAIN-KEYWORD,adsrvmedia,REJECT
+- DOMAIN-KEYWORD,adwords,REJECT
+- DOMAIN-KEYWORD,adservice,REJECT
+- DOMAIN-SUFFIX,appsflyer.com,REJECT
+- DOMAIN-KEYWORD,domob,REJECT
+- DOMAIN-SUFFIX,doubleclick.net,REJECT
+- DOMAIN-KEYWORD,duomeng,REJECT
+- DOMAIN-KEYWORD,dwtrack,REJECT
+- DOMAIN-KEYWORD,guanggao,REJECT
+- DOMAIN-KEYWORD,lianmeng,REJECT
+- DOMAIN-SUFFIX,mmstat.com,REJECT
+- DOMAIN-KEYWORD,mopub,REJECT
+- DOMAIN-KEYWORD,omgmta,REJECT
+- DOMAIN-KEYWORD,openx,REJECT
+- DOMAIN-KEYWORD,partnerad,REJECT
+- DOMAIN-KEYWORD,pingfore,REJECT
+- DOMAIN-KEYWORD,supersonicads,REJECT
+- DOMAIN-KEYWORD,uedas,REJECT
+- DOMAIN-KEYWORD,umeng,REJECT
+- DOMAIN-KEYWORD,usage,REJECT
+- DOMAIN-SUFFIX,vungle.com,REJECT
+- DOMAIN-KEYWORD,wlmonitor,REJECT
+- DOMAIN-KEYWORD,zjtoolbar,REJECT
+- DOMAIN-SUFFIX,9to5mac.com,QuickCat
+- DOMAIN-SUFFIX,abpchina.org,QuickCat
+- DOMAIN-SUFFIX,adblockplus.org,QuickCat
+- DOMAIN-SUFFIX,adobe.com,QuickCat
+- DOMAIN-SUFFIX,akamaized.net,QuickCat
+- DOMAIN-SUFFIX,alfredapp.com,QuickCat
+- DOMAIN-SUFFIX,amplitude.com,QuickCat
+- DOMAIN-SUFFIX,ampproject.org,QuickCat
+- DOMAIN-SUFFIX,android.com,QuickCat
+- DOMAIN-SUFFIX,angularjs.org,QuickCat
+- DOMAIN-SUFFIX,aolcdn.com,QuickCat
+- DOMAIN-SUFFIX,apkpure.com,QuickCat
+- DOMAIN-SUFFIX,appledaily.com,QuickCat
+- DOMAIN-SUFFIX,appshopper.com,QuickCat
+- DOMAIN-SUFFIX,appspot.com,QuickCat
+- DOMAIN-SUFFIX,arcgis.com,QuickCat
+- DOMAIN-SUFFIX,archive.org,QuickCat
+- DOMAIN-SUFFIX,armorgames.com,QuickCat
+- DOMAIN-SUFFIX,aspnetcdn.com,QuickCat
+- DOMAIN-SUFFIX,att.com,QuickCat
+- DOMAIN-SUFFIX,awsstatic.com,QuickCat
+- DOMAIN-SUFFIX,azureedge.net,QuickCat
+- DOMAIN-SUFFIX,azurewebsites.net,QuickCat
+- DOMAIN-SUFFIX,bing.com,QuickCat
+- DOMAIN-SUFFIX,bintray.com,QuickCat
+- DOMAIN-SUFFIX,bit.com,QuickCat
+- DOMAIN-SUFFIX,bit.ly,QuickCat
+- DOMAIN-SUFFIX,bitbucket.org,QuickCat
+- DOMAIN-SUFFIX,bjango.com,QuickCat
+- DOMAIN-SUFFIX,bkrtx.com,QuickCat
+- DOMAIN-SUFFIX,blog.com,QuickCat
+- DOMAIN-SUFFIX,blogcdn.com,QuickCat
+- DOMAIN-SUFFIX,blogger.com,QuickCat
+- DOMAIN-SUFFIX,blogsmithmedia.com,QuickCat
+- DOMAIN-SUFFIX,blogspot.com,QuickCat
+- DOMAIN-SUFFIX,blogspot.hk,QuickCat
+- DOMAIN-SUFFIX,bloomberg.com,QuickCat
+- DOMAIN-SUFFIX,box.com,QuickCat
+- DOMAIN-SUFFIX,box.net,QuickCat
+- DOMAIN-SUFFIX,cachefly.net,QuickCat
+- DOMAIN-SUFFIX,chromium.org,QuickCat
+- DOMAIN-SUFFIX,cl.ly,QuickCat
+- DOMAIN-SUFFIX,cloudflare.com,QuickCat
+- DOMAIN-SUFFIX,cloudfront.net,QuickCat
+- DOMAIN-SUFFIX,cloudmagic.com,QuickCat
+- DOMAIN-SUFFIX,cmail19.com,QuickCat
+- DOMAIN-SUFFIX,cnet.com,QuickCat
+- DOMAIN-SUFFIX,cocoapods.org,QuickCat
+- DOMAIN-SUFFIX,comodoca.com,QuickCat
+- DOMAIN-SUFFIX,crashlytics.com,QuickCat
+- DOMAIN-SUFFIX,culturedcode.com,QuickCat
+- DOMAIN-SUFFIX,d.pr,QuickCat
+- DOMAIN-SUFFIX,danilo.to,QuickCat
+- DOMAIN-SUFFIX,dayone.me,QuickCat
+- DOMAIN-SUFFIX,db.tt,QuickCat
+- DOMAIN-SUFFIX,deskconnect.com,QuickCat
+- DOMAIN-SUFFIX,disq.us,QuickCat
+- DOMAIN-SUFFIX,disqus.com,QuickCat
+- DOMAIN-SUFFIX,disquscdn.com,QuickCat
+- DOMAIN-SUFFIX,dnsimple.com,QuickCat
+- DOMAIN-SUFFIX,docker.com,QuickCat
+- DOMAIN-SUFFIX,dribbble.com,QuickCat
+- DOMAIN-SUFFIX,droplr.com,QuickCat
+- DOMAIN-SUFFIX,duckduckgo.com,QuickCat
+- DOMAIN-SUFFIX,dueapp.com,QuickCat
+- DOMAIN-SUFFIX,dytt8.net,QuickCat
+- DOMAIN-SUFFIX,edgecastcdn.net,QuickCat
+- DOMAIN-SUFFIX,edgekey.net,QuickCat
+- DOMAIN-SUFFIX,edgesuite.net,QuickCat
+- DOMAIN-SUFFIX,engadget.com,QuickCat
+- DOMAIN-SUFFIX,entrust.net,QuickCat
+- DOMAIN-SUFFIX,eurekavpt.com,QuickCat
+- DOMAIN-SUFFIX,evernote.com,QuickCat
+- DOMAIN-SUFFIX,fabric.io,QuickCat
+- DOMAIN-SUFFIX,fast.com,QuickCat
+- DOMAIN-SUFFIX,fastly.net,QuickCat
+- DOMAIN-SUFFIX,fc2.com,QuickCat
+- DOMAIN-SUFFIX,feedburner.com,QuickCat
+- DOMAIN-SUFFIX,feedly.com,QuickCat
+- DOMAIN-SUFFIX,feedsportal.com,QuickCat
+- DOMAIN-SUFFIX,fiftythree.com,QuickCat
+- DOMAIN-SUFFIX,firebaseio.com,QuickCat
+- DOMAIN-SUFFIX,flexibits.com,QuickCat
+- DOMAIN-SUFFIX,flickr.com,QuickCat
+- DOMAIN-SUFFIX,flipboard.com,QuickCat
+- DOMAIN-SUFFIX,g.co,QuickCat
+- DOMAIN-SUFFIX,gabia.net,QuickCat
+- DOMAIN-SUFFIX,geni.us,QuickCat
+- DOMAIN-SUFFIX,gfx.ms,QuickCat
+- DOMAIN-SUFFIX,ggpht.com,QuickCat
+- DOMAIN-SUFFIX,ghostnoteapp.com,QuickCat
+- DOMAIN-SUFFIX,git.io,QuickCat
+- DOMAIN-KEYWORD,github,QuickCat
+- DOMAIN-SUFFIX,globalsign.com,QuickCat
+- DOMAIN-SUFFIX,gmodules.com,QuickCat
+- DOMAIN-SUFFIX,godaddy.com,QuickCat
+- DOMAIN-SUFFIX,golang.org,QuickCat
+- DOMAIN-SUFFIX,gongm.in,QuickCat
+- DOMAIN-SUFFIX,goo.gl,QuickCat
+- DOMAIN-SUFFIX,goodreaders.com,QuickCat
+- DOMAIN-SUFFIX,goodreads.com,QuickCat
+- DOMAIN-SUFFIX,gravatar.com,QuickCat
+- DOMAIN-SUFFIX,gstatic.com,QuickCat
+- DOMAIN-SUFFIX,gvt0.com,QuickCat
+- DOMAIN-SUFFIX,hockeyapp.net,QuickCat
+- DOMAIN-SUFFIX,hotmail.com,QuickCat
+- DOMAIN-SUFFIX,icons8.com,QuickCat
+- DOMAIN-SUFFIX,ifixit.com,QuickCat
+- DOMAIN-SUFFIX,ift.tt,QuickCat
+- DOMAIN-SUFFIX,ifttt.com,QuickCat
+- DOMAIN-SUFFIX,iherb.com,QuickCat
+- DOMAIN-SUFFIX,imageshack.us,QuickCat
+- DOMAIN-SUFFIX,img.ly,QuickCat
+- DOMAIN-SUFFIX,imgur.com,QuickCat
+- DOMAIN-SUFFIX,imore.com,QuickCat
+- DOMAIN-SUFFIX,instapaper.com,QuickCat
+- DOMAIN-SUFFIX,ipn.li,QuickCat
+- DOMAIN-SUFFIX,is.gd,QuickCat
+- DOMAIN-SUFFIX,issuu.com,QuickCat
+- DOMAIN-SUFFIX,itgonglun.com,QuickCat
+- DOMAIN-SUFFIX,itun.es,QuickCat
+- DOMAIN-SUFFIX,ixquick.com,QuickCat
+- DOMAIN-SUFFIX,j.mp,QuickCat
+- DOMAIN-SUFFIX,js.revsci.net,QuickCat
+- DOMAIN-SUFFIX,jshint.com,QuickCat
+- DOMAIN-SUFFIX,jtvnw.net,QuickCat
+- DOMAIN-SUFFIX,justgetflux.com,QuickCat
+- DOMAIN-SUFFIX,kat.cr,QuickCat
+- DOMAIN-SUFFIX,klip.me,QuickCat
+- DOMAIN-SUFFIX,libsyn.com,QuickCat
+- DOMAIN-SUFFIX,linkedin.com,QuickCat
+- DOMAIN-SUFFIX,line-apps.com,QuickCat
+- DOMAIN-SUFFIX,linode.com,QuickCat
+- DOMAIN-SUFFIX,lithium.com,QuickCat
+- DOMAIN-SUFFIX,littlehj.com,QuickCat
+- DOMAIN-SUFFIX,live.com,QuickCat
+- DOMAIN-SUFFIX,live.net,QuickCat
+- DOMAIN-SUFFIX,livefilestore.com,QuickCat
+- DOMAIN-SUFFIX,llnwd.net,QuickCat
+- DOMAIN-SUFFIX,macid.co,QuickCat
+- DOMAIN-SUFFIX,macromedia.com,QuickCat
+- DOMAIN-SUFFIX,macrumors.com,QuickCat
+- DOMAIN-SUFFIX,mashable.com,QuickCat
+- DOMAIN-SUFFIX,mathjax.org,QuickCat
+- DOMAIN-SUFFIX,medium.com,QuickCat
+- DOMAIN-SUFFIX,mega.co.nz,QuickCat
+- DOMAIN-SUFFIX,mega.nz,QuickCat
+- DOMAIN-SUFFIX,megaupload.com,QuickCat
+- DOMAIN-SUFFIX,microsofttranslator.com,QuickCat
+- DOMAIN-SUFFIX,mindnode.com,QuickCat
+- DOMAIN-SUFFIX,mobile01.com,QuickCat
+- DOMAIN-SUFFIX,modmyi.com,QuickCat
+- DOMAIN-SUFFIX,msedge.net,QuickCat
+- DOMAIN-SUFFIX,myfontastic.com,QuickCat
+- DOMAIN-SUFFIX,name.com,QuickCat
+- DOMAIN-SUFFIX,nextmedia.com,QuickCat
+- DOMAIN-SUFFIX,nsstatic.net,QuickCat
+- DOMAIN-SUFFIX,nssurge.com,QuickCat
+- DOMAIN-SUFFIX,nyt.com,QuickCat
+- DOMAIN-SUFFIX,nytimes.com,QuickCat
+- DOMAIN-SUFFIX,omnigroup.com,QuickCat
+- DOMAIN-SUFFIX,onedrive.com,QuickCat
+- DOMAIN-SUFFIX,onenote.com,QuickCat
+- DOMAIN-SUFFIX,ooyala.com,QuickCat
+- DOMAIN-SUFFIX,openvpn.net,QuickCat
+- DOMAIN-SUFFIX,openwrt.org,QuickCat
+- DOMAIN-SUFFIX,orkut.com,QuickCat
+- DOMAIN-SUFFIX,osxdaily.com,QuickCat
+- DOMAIN-SUFFIX,outlook.com,QuickCat
+- DOMAIN-SUFFIX,ow.ly,QuickCat
+- DOMAIN-SUFFIX,paddleapi.com,QuickCat
+- DOMAIN-SUFFIX,parallels.com,QuickCat
+- DOMAIN-SUFFIX,parse.com,QuickCat
+- DOMAIN-SUFFIX,pdfexpert.com,QuickCat
+- DOMAIN-SUFFIX,periscope.tv,QuickCat
+- DOMAIN-SUFFIX,pinboard.in,QuickCat
+- DOMAIN-SUFFIX,pinterest.com,QuickCat
+- DOMAIN-SUFFIX,pixelmator.com,QuickCat
+- DOMAIN-SUFFIX,pixiv.net,QuickCat
+- DOMAIN-SUFFIX,playpcesor.com,QuickCat
+- DOMAIN-SUFFIX,playstation.com,QuickCat
+- DOMAIN-SUFFIX,playstation.com.hk,QuickCat
+- DOMAIN-SUFFIX,playstation.net,QuickCat
+- DOMAIN-SUFFIX,playstationnetwork.com,QuickCat
+- DOMAIN-SUFFIX,pushwoosh.com,QuickCat
+- DOMAIN-SUFFIX,rime.im,QuickCat
+- DOMAIN-SUFFIX,servebom.com,QuickCat
+- DOMAIN-SUFFIX,sfx.ms,QuickCat
+- DOMAIN-SUFFIX,shadowsocks.org,QuickCat
+- DOMAIN-SUFFIX,sharethis.com,QuickCat
+- DOMAIN-SUFFIX,shazam.com,QuickCat
+- DOMAIN-SUFFIX,skype.com,QuickCat
+- DOMAIN-SUFFIX,smartdnsQuickCat.com,QuickCat
+- DOMAIN-SUFFIX,smartmailcloud.com,QuickCat
+- DOMAIN-SUFFIX,sndcdn.com,QuickCat
+- DOMAIN-SUFFIX,sony.com,QuickCat
+- DOMAIN-SUFFIX,soundcloud.com,QuickCat
+- DOMAIN-SUFFIX,sourceforge.net,QuickCat
+- DOMAIN-SUFFIX,spotify.com,QuickCat
+- DOMAIN-SUFFIX,squarespace.com,QuickCat
+- DOMAIN-SUFFIX,sstatic.net,QuickCat
+- DOMAIN-SUFFIX,st.luluku.pw,QuickCat
+- DOMAIN-SUFFIX,stackoverflow.com,QuickCat
+- DOMAIN-SUFFIX,startpage.com,QuickCat
+- DOMAIN-SUFFIX,staticflickr.com,QuickCat
+- DOMAIN-SUFFIX,steamcommunity.com,QuickCat
+- DOMAIN-SUFFIX,symauth.com,QuickCat
+- DOMAIN-SUFFIX,symcb.com,QuickCat
+- DOMAIN-SUFFIX,symcd.com,QuickCat
+- DOMAIN-SUFFIX,tapbots.com,QuickCat
+- DOMAIN-SUFFIX,tapbots.net,QuickCat
+- DOMAIN-SUFFIX,tdesktop.com,QuickCat
+- DOMAIN-SUFFIX,techcrunch.com,QuickCat
+- DOMAIN-SUFFIX,techsmith.com,QuickCat
+- DOMAIN-SUFFIX,thepiratebay.org,QuickCat
+- DOMAIN-SUFFIX,theverge.com,QuickCat
+- DOMAIN-SUFFIX,time.com,QuickCat
+- DOMAIN-SUFFIX,timeinc.net,QuickCat
+- DOMAIN-SUFFIX,tiny.cc,QuickCat
+- DOMAIN-SUFFIX,tinypic.com,QuickCat
+- DOMAIN-SUFFIX,tmblr.co,QuickCat
+- DOMAIN-SUFFIX,todoist.com,QuickCat
+- DOMAIN-SUFFIX,trello.com,QuickCat
+- DOMAIN-SUFFIX,trustasiassl.com,QuickCat
+- DOMAIN-SUFFIX,tumblr.co,QuickCat
+- DOMAIN-SUFFIX,tumblr.com,QuickCat
+- DOMAIN-SUFFIX,tweetdeck.com,QuickCat
+- DOMAIN-SUFFIX,tweetmarker.net,QuickCat
+- DOMAIN-SUFFIX,twitch.tv,QuickCat
+- DOMAIN-SUFFIX,txmblr.com,QuickCat
+- DOMAIN-SUFFIX,typekit.net,QuickCat
+- DOMAIN-SUFFIX,ubertags.com,QuickCat
+- DOMAIN-SUFFIX,ublock.org,QuickCat
+- DOMAIN-SUFFIX,ubnt.com,QuickCat
+- DOMAIN-SUFFIX,ulyssesapp.com,QuickCat
+- DOMAIN-SUFFIX,urchin.com,QuickCat
+- DOMAIN-SUFFIX,usertrust.com,QuickCat
+- DOMAIN-SUFFIX,v.gd,QuickCat
+- DOMAIN-SUFFIX,v2ex.com,QuickCat
+- DOMAIN-SUFFIX,vimeo.com,QuickCat
+- DOMAIN-SUFFIX,vimeocdn.com,QuickCat
+- DOMAIN-SUFFIX,vine.co,QuickCat
+- DOMAIN-SUFFIX,vivaldi.com,QuickCat
+- DOMAIN-SUFFIX,vox-cdn.com,QuickCat
+- DOMAIN-SUFFIX,vsco.co,QuickCat
+- DOMAIN-SUFFIX,vultr.com,QuickCat
+- DOMAIN-SUFFIX,w.org,QuickCat
+- DOMAIN-SUFFIX,w3schools.com,QuickCat
+- DOMAIN-SUFFIX,webtype.com,QuickCat
+- DOMAIN-SUFFIX,wikiwand.com,QuickCat
+- DOMAIN-SUFFIX,wikileaks.org,QuickCat
+- DOMAIN-SUFFIX,wikimedia.org,QuickCat
+- DOMAIN-SUFFIX,wikipedia.com,QuickCat
+- DOMAIN-SUFFIX,wikipedia.org,QuickCat
+- DOMAIN-SUFFIX,windows.com,QuickCat
+- DOMAIN-SUFFIX,windows.net,QuickCat
+- DOMAIN-SUFFIX,wire.com,QuickCat
+- DOMAIN-SUFFIX,wordpress.com,QuickCat
+- DOMAIN-SUFFIX,workflowy.com,QuickCat
+- DOMAIN-SUFFIX,wp.com,QuickCat
+- DOMAIN-SUFFIX,wsj.com,QuickCat
+- DOMAIN-SUFFIX,wsj.net,QuickCat
+- DOMAIN-SUFFIX,xda-developers.com,QuickCat
+- DOMAIN-SUFFIX,xeeno.com,QuickCat
+- DOMAIN-SUFFIX,xiti.com,QuickCat
+- DOMAIN-SUFFIX,yahoo.com,QuickCat
+- DOMAIN-SUFFIX,yimg.com,QuickCat
+- DOMAIN-SUFFIX,ying.com,QuickCat
+- DOMAIN-SUFFIX,yoyo.org,QuickCat
+- DOMAIN-SUFFIX,ytimg.com,QuickCat
+- DOMAIN-SUFFIX,telegra.ph,QuickCat
+- DOMAIN-SUFFIX,telegram.org,QuickCat
+- IP-CIDR,91.108.4.0/22,QuickCat,no-resolve
+- IP-CIDR,91.108.8.0/21,QuickCat,no-resolve
+- IP-CIDR,91.108.16.0/22,QuickCat,no-resolve
+- IP-CIDR,91.108.56.0/22,QuickCat,no-resolve
+- IP-CIDR,149.154.160.0/20,QuickCat,no-resolve
+- IP-CIDR6,2001:67c:4e8::/48,QuickCat,no-resolve
+- IP-CIDR6,2001:b28:f23d::/48,QuickCat,no-resolve
+- IP-CIDR6,2001:b28:f23f::/48,QuickCat,no-resolve
+- IP-CIDR,120.232.181.162/32,QuickCat,no-resolve
+- IP-CIDR,120.241.147.226/32,QuickCat,no-resolve
+- IP-CIDR,120.253.253.226/32,QuickCat,no-resolve
+- IP-CIDR,120.253.255.162/32,QuickCat,no-resolve
+- IP-CIDR,120.253.255.34/32,QuickCat,no-resolve
+- IP-CIDR,120.253.255.98/32,QuickCat,no-resolve
+- IP-CIDR,180.163.150.162/32,QuickCat,no-resolve
+- IP-CIDR,180.163.150.34/32,QuickCat,no-resolve
+- IP-CIDR,180.163.151.162/32,QuickCat,no-resolve
+- IP-CIDR,180.163.151.34/32,QuickCat,no-resolve
+- IP-CIDR,203.208.39.0/24,QuickCat,no-resolve
+- IP-CIDR,203.208.40.0/24,QuickCat,no-resolve
+- IP-CIDR,203.208.41.0/24,QuickCat,no-resolve
+- IP-CIDR,203.208.43.0/24,QuickCat,no-resolve
+- IP-CIDR,203.208.50.0/24,QuickCat,no-resolve
+- IP-CIDR,220.181.174.162/32,QuickCat,no-resolve
+- IP-CIDR,220.181.174.226/32,QuickCat,no-resolve
+- IP-CIDR,220.181.174.34/32,QuickCat,no-resolve
+- DOMAIN,injections.adguard.org,DIRECT
+- DOMAIN,local.adguard.org,DIRECT
+- DOMAIN-SUFFIX,local,DIRECT
+- IP-CIDR,127.0.0.0/8,DIRECT
+- IP-CIDR,172.16.0.0/12,DIRECT
+- IP-CIDR,192.168.0.0/16,DIRECT
+- IP-CIDR,10.0.0.0/8,DIRECT
+- IP-CIDR,17.0.0.0/8,DIRECT
+- IP-CIDR,100.64.0.0/10,DIRECT
+- IP-CIDR,224.0.0.0/4,DIRECT
+- IP-CIDR6,fe80::/10,DIRECT
+- DOMAIN-SUFFIX,cn,DIRECT
+- DOMAIN-KEYWORD,-cn,DIRECT
+- GEOIP,CN,DIRECT
+- MATCH,DIRECT
