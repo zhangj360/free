@@ -2,3 +2,21 @@
 #20241112
 payload:
     - DOMAIN-KEYWORD,bigopay
+    - DOMAIN-SUFFIX,yebanhua.online
+    - DOMAIN-SUFFIX,app-analytics-services.com
+    - DOMAIN-SUFFIX,dfaklj.tech
+    - DOMAIN-SUFFIX,app-measurement.com
+    - DOMAIN-SUFFIX,bdesk.tech
+    - DOMAIN-SUFFIX,bigo.tv
+    - DOMAIN-SUFFIX,bigolive.tv
+    - DOMAIN-SUFFIX,bigovideo.tv
+    - DOMAIN-SUFFIX,giphy.com
+    - DOMAIN-SUFFIX,hzmk.site
+    - DOMAIN-SUFFIX,like.video
+    - DOMAIN-SUFFIX,likee.video
+    - DOMAIN-SUFFIX,like-video.com
+    - IP-CIDR,202.168.0.0/16
+    - IP-CIDR,202.63.0.0/16
+    - IP-CIDR,116.63.0.0/16
+    - IP-CIDR,103.139.72.231/32
+	- IP-CIDR,164.90.0.0/16
